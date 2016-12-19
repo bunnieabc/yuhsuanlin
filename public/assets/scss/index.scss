@@ -1,0 +1,26 @@
+$main: #0d2565;
+@charset "UTF-8";
+*:not(.fa) {
+  font-family: xingothic-tc;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  line-height: 1.7;
+  padding: 0;
+  margin: 0;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+h1,h2,h3,h4 {
+  margin: 0;
+}
+
+@media screen and (max-width:768px){
+
+}
