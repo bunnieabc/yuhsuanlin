@@ -25,7 +25,7 @@ html h1, html h2, html h3, html h4, body h1, body h2, body h3, body h4 {
 a {
   display: inline-block;
   text-decoration: none;
-  color: #fff;
+  color: #555;
 }
 
 h1, h2, h3, h4 {
@@ -175,7 +175,7 @@ header .header-left .header-left-inside span {
 
 .project .project-pic {
   width: 100%;
-  padding-bottom: 66.6%;
+  padding-bottom: 61%;
   background: #ccc;
   position: relative;
   background-position: 50% 50%;
