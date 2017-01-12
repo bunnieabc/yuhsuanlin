@@ -3,6 +3,7 @@ $main: #0d2565;
 
 $padding-horizon: 7.5%;
 $main-color:#69C7D1;
+$main-color2:#5CADBC;
 *:not(.fa) {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
@@ -198,9 +199,23 @@ header {
       &:hover {
         opacity: 1;
         .pic-hover-content {
-         
+        
         }
       }
+      button {
+        padding: 8px 15px;
+        outline: none;
+        background: $main-color2;
+        color: #FFF;
+        border-radius: 3px;
+        border: none;
+        margin-top: 10px;
+        transition: .1s linear;
+        &:hover {
+          background: $main-color; 
+        }
+      }
+
     }
   }
   .project-title {

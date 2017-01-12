@@ -216,6 +216,21 @@ header .header-left .header-left-inside span {
   opacity: 1;
 }
 
+.project .project-pic .pic-hover button {
+  padding: 8px 15px;
+  outline: none;
+  background: #5CADBC;
+  color: #FFF;
+  border-radius: 3px;
+  border: none;
+  margin-top: 10px;
+  transition: .1s linear;
+}
+
+.project .project-pic .pic-hover button:hover {
+  background: #69C7D1;
+}
+
 .project .project-title {
   margin: 20px 0px 10px 0px;
   font-size: 16px;
