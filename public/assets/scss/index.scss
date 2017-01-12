@@ -23,10 +23,18 @@ html, body {
   h1,h2,h3,h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    width: 100%;
   }
 }
+.white {
+  background: #FFF;
+}
+.img-block {
+  width: 100%;
+  padding: 0 9%;
+}
 a {
-  display: inline-block;
+  //display: inline-block;
   text-decoration: none;
   color: #555;
 }
@@ -143,6 +151,12 @@ header {
 .title {
     text-align: center;
     width: 100%;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    align-items: center;
   }
 .content {
   width: 100%;
@@ -151,6 +165,13 @@ header {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  .img {
+    width: 100%;
+    padding-bottom:129.4%;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 .sec1 {
   padding: 50px $padding-horizon;
@@ -163,6 +184,7 @@ header {
 .project {
   width: 30%;
   margin: 1.5%;
+  
   .project-pic {
     width: 100%;
     padding-bottom: 61%;
@@ -247,6 +269,10 @@ button {
   &:hover {
     background: $main-color; 
   }
+}
+p.section-md {
+  width: 100%;
+  padding: 0 20%;
 }
 button.download {
   font-size:16px; 

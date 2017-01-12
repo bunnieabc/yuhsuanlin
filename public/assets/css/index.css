@@ -20,10 +20,19 @@ html, body {
 html h1, html h2, html h3, html h4, body h1, body h2, body h3, body h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  width: 100%;
+}
+
+.white {
+  background: #FFF;
+}
+
+.img-block {
+  width: 100%;
+  padding: 0 9%;
 }
 
 a {
-  display: inline-block;
   text-decoration: none;
   color: #555;
 }
@@ -149,6 +158,12 @@ header .header-left .header-left-inside span {
 .title {
   text-align: center;
   width: 100%;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
 .content {
@@ -158,6 +173,14 @@ header .header-left .header-left-inside span {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+}
+
+.content .img {
+  width: 100%;
+  padding-bottom: 129.4%;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .sec1 {
@@ -258,6 +281,11 @@ button {
 
 button:hover {
   background: #69C7D1;
+}
+
+p.section-md {
+  width: 100%;
+  padding: 0 20%;
 }
 
 button.download {
