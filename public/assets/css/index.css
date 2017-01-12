@@ -95,7 +95,7 @@ header {
   width: 100%;
   margin: 0;
   height: 400px;
-  background: #FFF;
+  background-image: linear-gradient(to bottom, rgba(231, 239, 244, 0.36), rgba(160, 209, 217, 0.62));
 }
 
 header .header-inside {
@@ -178,10 +178,21 @@ header .header-left .header-left-inside span {
   padding-bottom: 66.6%;
   background: #ccc;
   position: relative;
+  background-position: 50% 50%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  transition: .2s ease-in;
+}
+
+.project .project-pic:hover {
+  -webkit-background-size: 180%;
+  -o-background-size: 180%;
+  background-size: 180%;
 }
 
 .project .project-pic .pic-hover {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   display: flex;
   position: absolute;
   width: 100%;
@@ -192,6 +203,8 @@ header .header-left .header-left-inside span {
   justify-content: center;
   opacity: 0;
   transition: .1s linear;
+  transition-delay: .1s;
+  text-align: center;
 }
 
 .project .project-pic .pic-hover .pic-hover-content {
@@ -203,12 +216,8 @@ header .header-left .header-left-inside span {
   opacity: 1;
 }
 
-.project .project-pic .pic-hover:hover .pic-hover-content {
-  transform: scale(1.2);
-}
-
 .project .project-title {
-  margin: 10px 0px;
+  margin: 20px 0px 10px 0px;
   font-size: 16px;
 }
 
@@ -230,4 +239,22 @@ footer {
   text-align: center;
   -webkit-justify-content: center;
   justify-content: center;
+}
+
+@keyframes gradient {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
 }
