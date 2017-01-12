@@ -221,6 +221,10 @@ header .header-left .header-left-inside span {
   font-size: 16px;
 }
 
+.project .project-title h4 {
+  font-weight: 400;
+}
+
 hr.short {
   width: 80px;
   border: 2px solid #69C7D1;
