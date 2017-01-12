@@ -1,0 +1,233 @@
+*:not(.fa) {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  line-height: 1.4;
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  background: #f1f1f1;
+  color: #555;
+  margin-bottom: 0px;
+}
+
+html h1, html h2, html h3, html h4, body h1, body h2, body h3, body h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 200;
+  padding: 0px 7.5%;
+  height: 70px;
+  background: #FFF;
+  -webkit-box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.2);
+}
+
+nav .nav-left {
+  width: 30%;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+nav .nav-left .logo {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #69C7D1;
+}
+
+nav .nav-right {
+  width: 70%;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+nav .nav-right ul {
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+nav .nav-right ul li {
+  margin: 0px 20px;
+  list-style: none;
+  transition: .1s linear;
+  text-align: center;
+  box-shadow: 0px 0px 0px 0px #fff;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+nav .nav-right ul li:hover {
+  box-shadow: 0px 2px 0px 0px #69C7D1;
+  font-weight: 400;
+}
+
+header {
+  width: 100%;
+  margin: 0;
+  height: 400px;
+  background: #FFF;
+}
+
+header .header-inside {
+  width: 100%;
+  height: 400px;
+  background-image: url("/assets/img/tree2.png");
+  -webkit-background-size: 35%;
+  -o-background-size: 35%;
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: 87% 100%;
+  position: relative;
+}
+
+header .header-inside .header-bg2 {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  opacity: 0.3;
+}
+
+header .header-left {
+  padding-left: 7.5%;
+  font-size: 34px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+}
+
+header .header-left h1, header .header-left h2, header .header-left h3, header .header-left h4 {
+  margin: 0;
+}
+
+header .header-left .header-left-inside {
+  width: 50%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header .header-left .header-left-inside span {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  padding: 50px 0px;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.sec1 {
+  padding: 50px 7.5%;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 30%;
+  margin: 1.5%;
+}
+
+.project .project-pic {
+  width: 100%;
+  padding-bottom: 66.6%;
+  background: #ccc;
+  position: relative;
+}
+
+.project .project-pic .pic-hover {
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  opacity: 0;
+  transition: .1s linear;
+}
+
+.project .project-pic .pic-hover .pic-hover-content {
+  color: #FFF;
+  font-size: 14px;
+}
+
+.project .project-pic .pic-hover:hover {
+  opacity: 1;
+}
+
+.project .project-pic .pic-hover:hover .pic-hover-content {
+  transform: scale(1.2);
+}
+
+.project .project-title {
+  margin: 10px 0px;
+  font-size: 16px;
+}
+
+hr.short {
+  width: 80px;
+  border: 2px solid #69C7D1;
+  margin-left: 0px;
+}
+
+footer {
+  background: #555;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 0px;
+  color: #FFF;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
