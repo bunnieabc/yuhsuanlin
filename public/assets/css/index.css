@@ -95,7 +95,7 @@ header {
   width: 100%;
   margin: 0;
   height: 400px;
-  background-image: linear-gradient(to bottom, rgba(231, 239, 244, 0.36), rgba(160, 209, 217, 0.62));
+  background: #FFF;
 }
 
 header .header-inside {
