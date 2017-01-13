@@ -289,6 +289,29 @@ button.download {
   width: 100%;
   font-weight: 600;
 }
+.lanuch-block {
+  text-align:center;
+  width: 100%;
+  margin-top: 40px;
+  button {
+    font-size: 18px;
+    border-radius: 80px;
+    height: 50px;
+    width: 200px;
+    background: #fff;
+    color: $main-color2;
+    border: 1px $main-color2 solid;
+    -webkit-transition: .1s linear; 
+    -moz-transition: .1s linear; 
+    -ms-transition: .1s linear; 
+    -o-transition: .1s linear; 
+    transition: .1s linear; 
+    &:hover {
+      background: $main-color2;
+      color: #fff;
+    }
+  }
+}
 @keyframes gradient {
     0%   {background-color:red; left:0px; top:0px;}
     

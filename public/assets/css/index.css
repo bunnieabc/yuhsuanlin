@@ -306,6 +306,32 @@ button.download {
   font-weight: 600;
 }
 
+.lanuch-block {
+  text-align: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.lanuch-block button {
+  font-size: 18px;
+  border-radius: 80px;
+  height: 50px;
+  width: 200px;
+  background: #fff;
+  color: #5CADBC;
+  border: 1px #5CADBC solid;
+  -webkit-transition: .1s linear;
+  -moz-transition: .1s linear;
+  -ms-transition: .1s linear;
+  -o-transition: .1s linear;
+  transition: .1s linear;
+}
+
+.lanuch-block button:hover {
+  background: #5CADBC;
+  color: #fff;
+}
+
 @keyframes gradient {
   0% {
     background-color: red;
