@@ -79,3 +79,16 @@ map '/portfolio/page6.html' do
       ]
     }
 end
+
+map '/portfolio/page7.html' do
+    run lambda { |env|
+      [
+        200,
+        {
+          'Content-Type'  => 'text/html',
+          'Cache-Control' => 'public, max-age=86400'
+        },
+        File.open('public/portfolio/page7.html', File::RDONLY)
+      ]
+    }
+end
