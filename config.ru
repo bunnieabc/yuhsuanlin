@@ -36,7 +36,7 @@ map '/portfolio/page3.html' do
           'Content-Type'  => 'text/html',
           'Cache-Control' => 'public, max-age=86400'
         },
-        File.open('public//portfolio/page3.html', File::RDONLY)
+        File.open('public/portfolio/page3.html', File::RDONLY)
       ]
     }
 end
@@ -49,12 +49,12 @@ map '/portfolio/page4.html' do
           'Content-Type'  => 'text/html',
           'Cache-Control' => 'public, max-age=86400'
         },
-        File.open('public//portfolio/page4.html', File::RDONLY)
+        File.open('public/portfolio/page4.html', File::RDONLY)
       ]
     }
 end
 
-map '/proposal.html' do
+map '/portfolio/page5.html' do
     run lambda { |env|
       [
         200,
@@ -62,12 +62,12 @@ map '/proposal.html' do
           'Content-Type'  => 'text/html',
           'Cache-Control' => 'public, max-age=86400'
         },
-        File.open('public/proposal.html', File::RDONLY)
+        File.open('public/portfolio/page5.html', File::RDONLY)
       ]
     }
 end
 
-map '/faq.html' do
+map '/portfolio/page6.html' do
     run lambda { |env|
       [
         200,
@@ -75,7 +75,7 @@ map '/faq.html' do
           'Content-Type'  => 'text/html',
           'Cache-Control' => 'public, max-age=86400'
         },
-        File.open('public/faq.html', File::RDONLY)
+        File.open('public/portfolio/page6.html', File::RDONLY)
       ]
     }
 end
