@@ -254,6 +254,12 @@ hr.short {
   margin-left: 0px;
 }
 
+hr.short-center {
+  width: 80px;
+  border: 2px solid #69C7D1;
+  margin: 20px auto;
+}
+
 footer {
   background: #555;
   height: 60px;
@@ -286,10 +292,18 @@ button:hover {
 p.section-md {
   width: 100%;
   padding: 0 20%;
+  line-height: 1.8;
+  text-align: left;
 }
 
 button.download {
   font-size: 16px;
+}
+
+.portfolio-sub-title {
+  color: #5CADBC;
+  width: 100%;
+  font-weight: 600;
 }
 
 @keyframes gradient {
