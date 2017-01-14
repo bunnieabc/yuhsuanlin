@@ -316,7 +316,7 @@ button.download {
 
 //$background-color: #4684ee;
 $loader-color: #fff;
-$loader-size: 60px;
+$loader-size: 45px;
 
 
 .loading-wrap {
@@ -344,13 +344,14 @@ $loader-size: 60px;
   font-family: Consolas, Menlo, Monaco, monospace;
   font-weight: bold;
   font-size: $loader-size;
-  
+  color: rgba(255,255,255,0.7);
   opacity: 0.8;
 
   span {
     display: inline-block;
     animation: pulse 0.4s alternate infinite ease-in-out;
-
+    font-size: 60px;
+    color: rgba(255,255,255,1);
     &:nth-child(odd) {
       animation-delay: 0.4s;
     }

@@ -3,7 +3,7 @@ $(document).ready(function() {
 $(window).load(function() {
     // Animate loader off screen
     //alert("...")
-    $(".loading-wrap").fadeOut("slow");
+    $(".loading-wrap").fadeOut(1400);
   });
 
 });

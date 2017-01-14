@@ -356,13 +356,16 @@ button.download {
   color: #fff;
   font-family: Consolas, Menlo, Monaco, monospace;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 45px;
+  color: rgba(255, 255, 255, 0.7);
   opacity: 0.8;
 }
 
 .loader span {
   display: inline-block;
   animation: pulse 0.4s alternate infinite ease-in-out;
+  font-size: 60px;
+  color: white;
 }
 
 .loader span:nth-child(odd) {
