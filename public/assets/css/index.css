@@ -380,6 +380,11 @@ button.download {
   animation-delay: 0.4s;
 }
 
+.md-pic {
+  width: 75%;
+  margin: 0% 12.5%;
+}
+
 @keyframes pulse {
   to {
     transform: scale(0.8);

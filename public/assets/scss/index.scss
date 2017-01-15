@@ -364,7 +364,10 @@ $loader-size: 45px;
     }
   }
 }
-
+.md-pic {
+  width: 75%;
+  margin: 0% 12.5%;
+}
 @keyframes pulse {
   to {
     transform: scale(0.8);
