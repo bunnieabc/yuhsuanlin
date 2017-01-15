@@ -172,6 +172,13 @@ header {
     -o-background-size: cover;
     background-size: cover;
   }
+  .img2 {
+    width: 100%;
+    padding-bottom:90.4%;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  }
 }
 .sec1 {
   padding: 50px $padding-horizon;
