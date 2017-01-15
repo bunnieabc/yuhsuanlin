@@ -191,6 +191,20 @@ header .header-left .header-left-inside span {
   background-size: contain;
 }
 
+.content .video {
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.content .video h4 {
+  text-align: center;
+  margin: 20px 0px;
+}
+
 .sec1 {
   padding: 50px 7.5%;
   display: flex;

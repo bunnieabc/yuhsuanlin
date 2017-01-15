@@ -179,6 +179,18 @@ header {
     -o-background-size: contain;
     background-size: contain;
   }
+  .video {
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    h4 {
+      text-align: center;
+      margin: 20px 0px;
+    }
+  }
 }
 .sec1 {
   padding: 50px $padding-horizon;
