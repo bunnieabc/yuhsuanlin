@@ -399,6 +399,29 @@ button.download {
   margin: 0% 12.5%;
 }
 
+.grade-wrap {
+  margin: auto;
+  width: 100%;
+  padding: 3% 7.5%;
+}
+
+.grade-wrap .line, .grade-wrap .line2 {
+  margin: 5px;
+}
+
+.grade-wrap .line span, .grade-wrap .line2 span {
+  margin-right: 6px;
+}
+
+.grade-wrap .line input, .grade-wrap .line select, .grade-wrap .line2 input, .grade-wrap .line2 select {
+  border-radius: 3px;
+  line-height: 28px;
+  width: 150px;
+  height: 28px;
+  border: 1px #ccc solid;
+  padding: 0px 7px;
+}
+
 @keyframes pulse {
   to {
     transform: scale(0.8);

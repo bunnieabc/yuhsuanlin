@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns:og='http://ogp.me/ns#'>
+<link rel="stylesheet" href="/assets/css/index.css">
+<body>
+  <div class="grade-wrap">
+    <div class="line">
+      <span>共有幾門課</span><input type="number" class="course">
+      <button class="course_num">Submit</button>
+    </div>
+    <hr>
+    <div class="grade"></div>
+  </div>
+  
+</body>
+<script src="/assets/js/jquery-2.1.4.min.js">
+</script>
+<script>
+$(document).ready(function() {
+  $(".course_num").click(function(){
+    var num = parseInt($(".course").val());
+    console.log(num);
+    for(var i = 0 ; i < num ; i++ ){
+      $(".grade").append('<div class="line">\
+        <span>'+ (i+1) +'.</span><span>等級</span><select>\
+          <option value="ap">A+</option>\
+          <option value="a">A</option>\
+          <option value="am">A-</option>\
+          <option value="bp">B+</option>\
+          <option value="b">B</optio>\
+          <option value="bm">B-</optio>\
+          <option value="cp">C+</optio>\
+          <option value="c">C</optio>\
+          <option value="cm">C-</optio>\
+        </select>\
+        <span>學分</span> <input type="number" class="credit"><br>\
+      </div>')
+    }
+     $(".grade-wrap").append('<button class="submit_score">送出</button>');
+  })
+  $(document).on("click", ".submit_score", function(e){
+    //alert("test");
+    var sum = 0;
+    var credit_sum = 0;
+    var ans = 0;
+    $( "select" ).each(function( index ) {
+      //console.log( index + ": " + $( this ).text() );
+      var score = $(this).val();
+      if($(this).siblings(".credit").val()==''){
+        var credit = 0;
+      }
+      else var credit = parseFloat($(this).siblings(".credit").val());
+      console.log(credit);
+      var score_num = 0;
+      switch (score) {
+      case "ap":
+          score_num = 4.3;
+          break;
+      case "a":
+          score_num = 4;
+          break;
+      case "am":
+          score_num = 3.7;
+          break;
+      case "bp":
+          score_num = 3.3;
+          break;
+      case "b":
+          score_num = 3;
+          break;
+      case "bm":
+          score_num = 2.7;
+          break;
+      case "cp":
+          score_num = 2.3;
+      case "c":
+          score_num = 2;
+      case "cm":
+          score_num = 1.7;
+      }
+      sum = score_num * credit + sum;
+      credit_sum = credit_sum + credit;
+    });
+    ans = sum / credit_sum;
+    $(".grade-wrap").append("<hr><div class='line'><h3>GPA: "+ ans +"</h3></div>");
+  })
+  
+});
+
+</script>
+</html>
