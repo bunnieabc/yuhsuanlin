@@ -206,7 +206,7 @@ header .header-left .header-left-inside span {
 }
 
 .sec1 {
-  padding: 50px 1.5%;
+  padding: 70px 2.5%;
   display: flex;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
@@ -236,7 +236,7 @@ header .header-left .header-left-inside span {
 }
 
 .project .project-pic .pic-hover {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   position: absolute;
   width: 100%;
@@ -262,7 +262,7 @@ header .header-left .header-left-inside span {
 
 .project .project-title {
   margin: 20px 0px 10px 0px;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
 }
 

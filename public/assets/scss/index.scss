@@ -2,7 +2,7 @@ $main: #0d2565;
 @charset "UTF-8";
 
 $padding-horizon: 7.5%;
-$padding-under-horizon: 1.5%;
+$padding-under-horizon: 2.5%;
 $main-color:#69C7D1;
 $main-color2:#5CADBC;
 *:not(.fa) {
@@ -195,7 +195,7 @@ header {
   }
 }
 .sec1 {
-  padding: 50px $padding-under-horizon;
+  padding: 70px $padding-under-horizon;
   display: flex;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
@@ -222,7 +222,7 @@ header {
       background-size: 120%;
     }
     .pic-hover {
-      background: rgba(0,0,0,0.6);
+      background: rgba(0,0,0,0.5);
       display: flex;
       position: absolute;
       width: 100%;
@@ -251,7 +251,7 @@ header {
   }
   .project-title {
     margin: 20px 0px 10px 0px;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     h4 {
       font-weight: 400;
