@@ -229,12 +229,6 @@ header .header-left .header-left-inside span {
   transition: .2s ease-in;
 }
 
-.project .project-pic:hover {
-  -webkit-background-size: 120%;
-  -o-background-size: 120%;
-  background-size: 120%;
-}
-
 .project .project-pic .pic-hover {
   background: rgba(0, 0, 0, 0.5);
   display: flex;
