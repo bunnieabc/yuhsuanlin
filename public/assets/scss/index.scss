@@ -61,6 +61,7 @@ nav {
     width: 30%;
     -webkit-justify-content: flex-start;
     justify-content: flex-start;
+        
     .logo {
       font-family: 'Montserrat', sans-serif;
       font-weight: 600;
@@ -79,6 +80,7 @@ nav {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
       li{
+        font-family: 'Montserrat', sans-serif;
         margin: 0px 20px;
         list-style: none;
         transition: .1s linear;

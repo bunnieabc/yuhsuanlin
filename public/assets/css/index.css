@@ -86,6 +86,7 @@ nav .nav-right ul {
 }
 
 nav .nav-right ul li {
+  font-family: 'Montserrat', sans-serif;
   margin: 0px 20px;
   list-style: none;
   transition: .1s linear;
