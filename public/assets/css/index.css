@@ -445,3 +445,70 @@ button.download {
     top: 0px;
   }
 }
+@media(max-width: 768px){
+  header .header-inside {
+      background-size: 50%;
+      background-position: 101% 100%;
+  }
+  header .header-left {
+    font-size: 26px;
+  }
+  header .header-left .header-left-inside span {
+    font-size: 16px;
+  }
+  .project {
+    width: 48%;
+  }
+}
+@media(max-width: 500px){
+    nav {
+      padding: 0px;
+      padding-left: 20px;
+      .nav-left {
+        width: 40%;
+      }
+      .nav-right {
+        width: 60%;
+        
+      }
+      
+    }
+    nav .nav-left .logo {
+      font-size: 14px;
+    }
+    nav .nav-right ul li {
+      font-size: 12px;
+      margin: 0;
+      margin-right: 10px;
+    }
+    header {
+      height: 100%;
+    }
+    header .header-inside {
+      background-position: 50% 5%;
+      background-size: 85%;
+    }
+    header .header-left {
+      font-size: 26px;
+      padding: 0px;
+    }
+    header .header-left .header-left-inside {
+      margin-top: 92%;
+      width: 100%;
+      text-align: center;
+    }
+    .header-left-inside {
+      width: 100%;
+    }
+    hr.short {
+      display: none;
+    }
+    header .header-left .header-left-inside span {
+      font-size: 16px;
+    }
+    .project {
+      width: 100%;
+      padding: 5%;
+    }
+
+}
