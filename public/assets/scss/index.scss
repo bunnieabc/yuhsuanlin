@@ -417,6 +417,76 @@ $loader-size: 45px;
     
     100% {background-color:red; left:0px; top:0px;}
 }
-@media screen and (max-width:768px){
-  
+@media screen and (min-width:1200px){
+  .content {
+    .img-block {
+      
+    }
+    .img {
+      width: 1000px;
+      padding-bottom: 1290px;
+      margin: auto;
+      
+    }
+    .img2 {
+      width: 1000px;
+      padding-bottom: 904px;
+      -webkit-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      margin: auto;
+    }
+  }
+}
+
+@media(max-width: 500px){
+    nav {
+      padding: 0px;
+      padding-left: 20px;
+      .nav-left {
+        width: 40%;
+      }
+      .nav-right {
+        width: 60%;
+        
+      }
+      
+    }
+    nav .nav-left .logo {
+      font-size: 14px;
+    }
+    nav .nav-right ul li {
+      font-size: 12px;
+      margin: 0;
+      margin-right: 10px;
+    }
+    header {
+      height: 100%;
+    }
+    header .header-inside {
+      background-position: 50% 5%;
+      background-size: 85%;
+    }
+    header .header-left {
+      font-size: 26px;
+      padding: 0px;
+    }
+    header .header-left .header-left-inside {
+      margin-top: 92%;
+      width: 100%;
+      text-align: center;
+    }
+    .header-left-inside {
+      width: 100%;
+    }
+    hr.short {
+      display: none;
+    }
+    header .header-left .header-left-inside span {
+      font-size: 16px;
+    }
+    .project {
+      width: 100%;
+      padding: 5%;
+    }
 }
