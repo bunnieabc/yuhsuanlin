@@ -193,8 +193,8 @@ header .header-left .header-left-inside span {
 }
 
 .content .img-guideline {
-  width: 605%;
-  padding-bottom: 90.4%;
+  width: 100%;
+  padding-bottom: 600%;
   -webkit-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
