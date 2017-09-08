@@ -192,6 +192,14 @@ header .header-left .header-left-inside span {
   background-size: contain;
 }
 
+.content .img-guideline {
+  width: 605%;
+  padding-bottom: 90.4%;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
 .content .video {
   display: flex;
   -webkit-justify-content: center;
