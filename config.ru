@@ -168,3 +168,16 @@ map '/test.html' do
       ]
     }
 end
+
+map '/portfolio/ux_test.html' do
+    run lambda { |env|
+      [
+        200,
+        {
+          'Content-Type'  => 'text/html',
+          'Cache-Control' => 'public, max-age=86400'
+        },
+        File.open('public/portfolio/ux_test.html', File::RDONLY)
+      ]
+    }
+end
