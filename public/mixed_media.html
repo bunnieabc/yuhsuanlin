@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:og='http://ogp.me/ns#'>
+<head>
+<title>Mixed Media Project Prototype - Factory Girls</title>
+  <meta charset="UTF-8">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title></title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <meta content="" property="og:title">
+  <meta content="" property="og:site_name">
+  <meta content="/img/common/FacebookShare.jpg" property="og:image">
+  <meta content="" property="og:description">
+  <link href="/img/common/web-icon.png" rel="shortcut icon">
+  <link rel="stylesheet" href="/assets/css/normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/css/mixed.css">
+<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Montserrat|Raleway" rel="stylesheet">
+</head>
+<body >
+  <div class="wrap">
+    <img class="show" src="../assets/img/after/0.png" alt="">
+  </div>
+</body>
+<script src="/assets/js/jquery-2.1.4.min.js"></script>
+
+<script>
+  var count = 0;
+  $(".wrap").click(function(){
+    console.log()
+    count = count + 1;
+    $(".show").attr("src","../assets/img/after/" + count +".png")
+    if(count == 46){
+      count = -1;
+    }
+  })
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90248764-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>
