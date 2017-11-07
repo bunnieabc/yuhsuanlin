@@ -25,9 +25,33 @@ html h1, html h2, html h3, html h4, body h1, body h2, body h3, body h4 {
   background: #000;
   width: 100%;
   height: 100%;
+  flex-wrap: wrap;
 }
 
 .wrap img {
   height: 400px;
   width: 600px;
+  cursor: pointer;
+}
+
+.wrap .image-show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.wrap .button {
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer;
 }

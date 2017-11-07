@@ -20,20 +20,40 @@
 </head>
 <body >
   <div class="wrap">
-    <img class="show" src="../assets/img/after/0.png" alt="">
+    <div class="image-show">
+      <div class="button" id ="back" style="opacity:0.5"><i class="fa fa-arrow-left"></i></div>
+      <img class="show" src="../assets/img/after/0.png" alt="">
+      <div class="button" id="next" ><i class="fa fa-arrow-right"></i></div>
+    </div>
+    <div class="button-show">
+      
+      
+    </div>
   </div>
 </body>
 <script src="/assets/js/jquery-2.1.4.min.js"></script>
 
 <script>
   var count = 0;
-  $(".wrap").click(function(){
+  $(".wrap img, #next").click(function(){
     console.log()
     count = count + 1;
-    $(".show").attr("src","../assets/img/after/" + count +".png")
     if(count == 46){
-      count = -1;
+      count = 0;
     }
+    $(".show").attr("src","../assets/img/after/" + count +".png")
+    $("#back").css("opacity",1)
+  })
+
+  $("#back").click(function(){
+    console.log()
+    count = count - 1;
+    if(count <= 0){
+      count = 0;
+      $("#back").css("opacity",0.5)
+    }
+    $(".show").attr("src","../assets/img/after/" + count +".png")
+    
   })
 </script>
 <script>
