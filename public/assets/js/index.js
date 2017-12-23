@@ -36,7 +36,7 @@ var polygons = [
     type: "rectangle",
     //polygon: "50% 0%, 0% 100%, 100% 100%",
     polygon: "0% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 100%",
-    background: "135deg, #6CBDDC 0%, #6CBDDC 25%, #6CBDDC 77%, #6CBDDC 100%",
+    background: "135deg, #FFE141 0%, #FFE141 25%, #FFE141 77%, #FFE141 100%",
     width: "75",
     height: "75",
     transform: "rotate(0deg)"
@@ -45,7 +45,7 @@ var polygons = [
     type: "pentagon",
     //polygon: "50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%",
     polygon: "50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%, 0% 38%",
-    background: "135deg, #6FB6ED 0%, #6FB6ED 11%, #6FB6ED 79%, #6FB6ED 100%",
+    background: "135deg, #FF7373 0%, #FF7373 11%, #FF7373 79%, #FF7373 100%",
     width: "84",
     height: "80",
     transform: "rotate(45deg)"
@@ -53,7 +53,7 @@ var polygons = [
   {
     type: "hexagon",
     polygon: "50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%",
-    background: "135deg, #73AFFF 0%, #73AFFF 5%, #73AFFF 66%, #73AFFF 100%",
+    background: "135deg, #569CF8 0%, #569CF8 5%, #569CF8 66%, #569CF8 100%",
     width: "84",
     height: "96",
     transform: "rotate(130deg)"
