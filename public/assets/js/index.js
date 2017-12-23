@@ -69,7 +69,7 @@ var morph = function(){
 
 setInterval(function(){
   morph()
-}, 2000);
+}, 1500);
 
 
 

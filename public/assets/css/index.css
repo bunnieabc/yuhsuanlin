@@ -166,7 +166,7 @@ header .profile .polygon {
 
 header .header-words {
   width: 80%;
-  padding-left: 9%;
+  padding-left: 7.5%;
   color: #333;
 }
 
@@ -177,7 +177,7 @@ header .header-words .header-title {
 }
 
 header .header-words .header-contents {
-  font-size: 20px;
+  font-size: 23px;
   padding-top: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -185,6 +185,12 @@ header .header-words .header-contents {
 
 header .header-words .header-contents .typing {
   font-weight: 700;
+}
+
+header .header-words .header-contents .school {
+  font-size: 16px;
+  color: #333;
+  padding-top: 17px;
 }
 
 header .header-words .social-media {
