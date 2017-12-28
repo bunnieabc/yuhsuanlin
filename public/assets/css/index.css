@@ -250,7 +250,7 @@ header .header-words .social-media a:hover {
 }
 
 .tags .tag.active {
-  background: #569CF8;
+  background: #313131;
   color: #fff;
 }
 
@@ -274,8 +274,8 @@ header .header-words .social-media a:hover {
   color: #FFF;
 }
 
-.tags #graphics:hover {
-  background: #68C4CA;
+.tags #illustration:hover {
+  background: #569CF8;
   color: #FFF;
 }
 
@@ -297,6 +297,8 @@ header .header-words .social-media a:hover {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 
 .content .img {
@@ -338,27 +340,38 @@ header .header-words .social-media a:hover {
 }
 
 .sec1 {
-  padding: 70px 2.5%;
+  padding: 70px 5%;
   display: flex;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
+.project-col-6 {
+  width: 47%;
+}
+
+.project-col-4 {
+  width: 33.33%;
+}
+
 .project {
-  width: 31.3%;
   margin: 3% 1%;
 }
 
 .project .project-pic {
   width: 100%;
-  padding-bottom: 61%;
+  padding-bottom: 70%;
   position: relative;
   background-position: 50% 50%;
-  -webkit-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   transition: .2s ease-in;
+}
+
+.project .project-pic #figure {
+  background: #8c7156;
 }
 
 .project .project-pic .pic-hover {
@@ -386,14 +399,13 @@ header .header-words .social-media a:hover {
   opacity: 1;
 }
 
-.project .project-title {
-  margin: 20px 0px 10px 0px;
-  font-size: 18px;
-  text-align: center;
+.project .project-pic .project-description {
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
 }
 
-.project .project-title h4 {
-  font-weight: 400;
+.project .project-pic .project-title {
+  font-size: 28px;
 }
 
 .project .project-summary {
