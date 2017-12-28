@@ -371,7 +371,11 @@ header .header-words .social-media a:hover {
 }
 
 .project .project-pic #figure {
-  background: #8c7156;
+  background: rgba(96, 77, 64, 0.85);
+}
+
+.project .project-pic #backme {
+  background: rgba(243, 157, 9, 0.85);
 }
 
 .project .project-pic .pic-hover {
