@@ -297,8 +297,8 @@ header .header-words .social-media a:hover {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-justify-content: center;
-  justify-content: center;
+  -webkit-justify-content: start;
+  justify-content: start;
 }
 
 .content .img {
@@ -347,14 +347,6 @@ header .header-words .social-media a:hover {
   flex-wrap: wrap;
 }
 
-.project-col-6 {
-  width: 47%;
-}
-
-.project-col-4 {
-  width: 33.33%;
-}
-
 .project {
   margin: 1% 1%;
 }
@@ -371,23 +363,66 @@ header .header-words .social-media a:hover {
 }
 
 .project .project-pic #figure {
-  background: rgba(96, 77, 64, 0.85);
+  background: rgba(96, 77, 64, 0.9);
 }
 
 .project .project-pic #backme {
-  background: rgba(243, 157, 9, 0.85);
+  background: rgba(243, 157, 9, 0.9);
+}
+
+.project .project-pic #backme .pic-hover-content {
+  color: #222;
 }
 
 .project .project-pic #blender {
-  background: rgba(46, 54, 108, 0.85);
+  background: rgba(46, 54, 108, 0.9);
 }
 
 .project .project-pic #plusme {
-  background: rgba(98, 155, 245, 0.85);
+  background: rgba(98, 155, 245, 0.9);
+}
+
+.project .project-pic #ripple {
+  background: rgba(41, 45, 48, 0.9);
+}
+
+.project .project-pic #drama {
+  background: rgba(253, 65, 140, 0.9);
+}
+
+.project .project-pic #muse {
+  background: rgba(186, 193, 237, 0.9);
+}
+
+.project .project-pic #muse .pic-hover-content {
+  color: #1b223f;
+}
+
+.project .project-pic #meichu {
+  background: rgba(255, 162, 83, 0.9);
+}
+
+.project .project-pic #w1 {
+  background: rgba(43, 160, 255, 0.9);
+}
+
+.project .project-pic #w2 {
+  background: rgba(238, 73, 102, 0.9);
+}
+
+.project .project-pic #w3 {
+  background: rgba(255, 239, 217, 0.9);
+}
+
+.project .project-pic #w3 .pic-hover-content {
+  color: #1b223f;
+}
+
+.project .project-pic #w4 {
+  background: rgba(76, 164, 185, 0.9);
 }
 
 .project .project-pic .pic-hover {
-  background: rgba(0, 0, 0, 0.5);
   display: flex;
   position: absolute;
   width: 100%;
@@ -420,8 +455,21 @@ header .header-words .social-media a:hover {
   font-size: 28px;
 }
 
-.project .project-summary {
-  color: #666;
+.project-col-6 {
+  width: 48%;
+}
+
+.project-col-4 {
+  width: 31.33%;
+}
+
+.project-col-4 .project-pic .project-description {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+
+.project-col-4 .project-pic .project-title {
+  font-size: 22px;
 }
 
 hr.short {

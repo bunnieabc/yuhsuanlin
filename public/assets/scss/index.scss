@@ -304,8 +304,8 @@ header {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-justify-content: center;
-  justify-content: center;
+  -webkit-justify-content: start;
+  justify-content: start;
   .img {
     width: 100%;
     padding-bottom:129.4%;
@@ -348,14 +348,7 @@ header {
   flex-wrap: wrap;
 }
 
-.project-col-6 {
-  width: 47%;
-  
-}
 
-.project-col-4 {
-  width: 33.33%;
-}
 
 .project {
   margin: 1% 1%;
@@ -375,22 +368,59 @@ header {
     }
 
     #figure {
-      background: rgba(96, 77, 64, 0.85);
+      background: rgba(96, 77, 64, 0.9);
     }
     #backme {
-      background: rgba(243, 157, 9, 0.85);
+      background: rgba(243, 157, 9, 0.9);
+      .pic-hover-content {
+        color: #222;
+      }
     }
     #blender {
-      background: rgba(46, 54, 108, 0.85);
+      background: rgba(46, 54, 108, 0.9);
     }
     #plusme {
-      background: rgba(98, 155, 245, 0.85);
+      background: rgba(98, 155, 245, 0.9);
+    }
+    #ripple {
+      background: rgba(41, 45, 48, 0.9);
     }
 
+    #drama {
+      background: rgba(253, 65, 140, 0.9);
+    }
+
+    #muse {
+      background: rgba(186, 193, 237, 0.9);
+      .pic-hover-content {
+        color: #1b223f;
+      }
+    }
+    
+    #meichu {
+      background: rgba(255, 162, 83, 0.9);
+    }
+    #w1 {
+      background: rgba(43, 160, 255,0.9);
+    }
+
+    #w2 {
+      background: rgba(238, 73, 102, 0.9);
+    }
+
+    #w3 {
+      background: rgba(255, 239, 217, 0.9);
+      .pic-hover-content {
+        color: #1b223f;
+      }
+    }
+    #w4 {
+      background: rgba(76, 164, 185, 0.9);
+    }
 
 
     .pic-hover {
-      background: rgba(0,0,0,0.5);
+      //background: rgba(0,0,0,0.5);
       display: flex;
       position: absolute;
       width: 100%;
@@ -422,8 +452,22 @@ header {
       font-size: 28px;
     }
   }
-  .project-summary {
-    color: #666;
+}
+
+.project-col-6 {
+  width: 48%;
+  
+}
+
+.project-col-4 {
+  width: 31.33%;
+  .project-pic .project-description {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+  }
+
+  .project-pic .project-title {
+    font-size: 22px;
   }
 }
 hr.short {
