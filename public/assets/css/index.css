@@ -378,6 +378,10 @@ header .header-words .social-media a:hover {
   background: rgba(243, 157, 9, 0.85);
 }
 
+.project .project-pic #blender {
+  background: rgba(46, 54, 108, 0.85);
+}
+
 .project .project-pic .pic-hover {
   background: rgba(0, 0, 0, 0.5);
   display: flex;
