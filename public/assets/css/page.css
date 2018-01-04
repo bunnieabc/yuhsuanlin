@@ -40,10 +40,6 @@ section {
   text-align: center;
 }
 
-section h3 {
-  font-size: 26px;
-}
-
 section h4 {
   font-size: 20px;
 }
@@ -53,18 +49,93 @@ section p {
   line-height: 1.7em;
 }
 
-section h2, section h3, section h4, section h5, section p, section .image-sm {
+section h2, section h3, section h4, section h5, section p, section .other {
   width: 100%;
   padding: 0% 16%;
   line-height: 1.7em;
   text-align: left;
+  position: relative;
 }
 
-section .image-sm {
+section .image-sm, section .other-sm {
   padding: 0% 15%;
+}
+
+section .image-md, section .other-md {
+  padding: 0% 9%;
+}
+
+section .image-lg, section .other-lg {
+  padding: 0% 0%;
 }
 
 section h2 {
   font-size: 32px;
   font-weight: 700;
+}
+
+section h3 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.statement {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: #eee;
+  height: 75px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  margin: 15px 0px;
+}
+
+.statement .statement-title {
+  border-right: 1px solid #ccc;
+  font-size: 22px;
+  color: #777;
+  padding: 0px 20px;
+  height: 100%;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.statement .statement-content, .statement .statement-title {
+  font-size: 18px;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.box {
+  border: 1px solid #dfdfdf;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: #F0F9FF;
+  padding: 15px 25px;
+  width: 48%;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.7em;
+  margin: 1%;
+}
+
+.box .box-title {
+  font-weight: 700;
+}
+
+.box hr {
+  margin: 14px 0px;
+}
+
+#red {
+  background: #FFF3F0;
+}
+
+.flex {
+  display: flex;
 }
