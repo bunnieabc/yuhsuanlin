@@ -1,0 +1,41 @@
+$main: #0d2565;
+@charset "UTF-8";
+
+$padding-horizon: 7.5%;
+$padding-under-horizon: 2.5%;
+$main-color:#69C7D1;
+$main-color2:#5CADBC;
+$blue: #569CF8;
+$red: #FF7373;
+$yellow: #F6D839;
+$green: #68C4CA;
+
+
+*:not(.fa) {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+header.portfolio {
+  width: 100%;
+  background-size: cover;
+  padding-bottom: 26%;
+  background-color: $blue;
+}
+
+#uxmuseum {
+  header.portfolio {
+    background-image: url("/../assets/img/figure/cover.png");
+  }
+  nav {
+    .nav-right ul li a {
+      color: rgba(255,255,255,0.5);
+    }
+    .nav-right ul li.active a {
+      color: rgba(255,255,255,1);
+    }
+  }
+}

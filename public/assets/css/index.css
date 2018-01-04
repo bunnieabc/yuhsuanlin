@@ -42,6 +42,9 @@ h1, h2, h3, h4 {
 }
 
 nav {
+  position: absolute;
+  top: 0px;
+  left: 0px;
   display: flex;
   -webkit-align-items: center;
   align-items: center;
@@ -131,6 +134,7 @@ nav .nav-right ul li.active a, nav .nav-right ul li:hover a {
 header {
   width: 100%;
   padding: 7% 13%;
+  padding-top: 12%;
   padding-bottom: 1%;
   display: flex;
   flex-wrap: wrap;
@@ -448,7 +452,17 @@ header .header-words .social-media a:hover {
 
 .project .project-pic .project-description {
   font-family: 'Karla', sans-serif;
-  font-size: 20px;
+  font-size: 21px;
+}
+
+.project .project-pic .project-description span.note {
+  font-size: 16px;
+}
+
+.project .project-pic .project-note-tag {
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 24px;
 }
 
 .project .project-pic .project-title {

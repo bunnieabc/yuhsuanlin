@@ -1,0 +1,28 @@
+*:not(.fa) {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+header.portfolio {
+  width: 100%;
+  background-size: cover;
+  padding-bottom: 26%;
+  background-color: #569CF8;
+}
+
+#uxmuseum header.portfolio {
+  background-image: url("/../assets/img/figure/cover.png");
+}
+
+#uxmuseum nav .nav-right ul li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#uxmuseum nav .nav-right ul li.active a {
+  color: white;
+}
