@@ -38,11 +38,11 @@ header.portfolio {
       color: rgba(255,255,255,1);
     }
   }
-  img {
-    max-width: 100%;
-    height: auto;
-    flex: 0 1;
-  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+  flex: 0 1;
 }
 
 section{
@@ -52,8 +52,8 @@ section{
   // flex-wrap: wrap;
   // -webkit-justify-content: center;
   // justify-content: center;
-  margin-bottom: 20px;
-  margin-top: 60px;
+  padding-bottom: 80px;
+  padding-top: 80px;
   text-align: center;
 
  
@@ -64,14 +64,14 @@ section{
   h2, h3, h4, h5 {
     //margin-bottom: 10px;
   }
-  h2, h3, h4, h5, p, .other{
+  h2, h3, h4, h5, p,{
     width: 100%;
-    padding: 0% 16%;
+    padding: 0% 18%;
     line-height: 1.7em;
     text-align: left;
     position: relative;
   }
-  .image-sm, .other-sm { padding: 0% 15%; }
+  .image-sm, .other-sm { padding: 0% 17%; }
   .image-md, .other-md { padding: 0% 9%; }
   .image-lg, .other-lg { padding: 0% 0%; }
   h2 {
@@ -83,6 +83,11 @@ section{
     font-size: 26px;
     margin-bottom: 15px;
     margin-top: 15px;
+  }
+
+  .other-sm, .other-md, .other-lg { 
+    line-height: 1.7em;
+    font-size: 17px;
   }
 }
 .statement {
@@ -132,9 +137,36 @@ section{
     margin: 14px 0px;
   }
 }
+.col-10 { width: 10%; }
+.col-20 { width: 20%; }
+.col-30 { width: 30%; }
+.col-40 { width: 40%; }
+.col-50 { width: 50%; }
+.col-60 { width: 60%; }
+.col-70 { width: 70%; }
+.col-80 { width: 80%; }
+.col-90 { width: 90%; }
+.padding-20 { padding: 20px; }
+.text-left { text-align: left; }
+.title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
 #red {
   background: #FFF3F0;
 }
 .flex {
   display: flex;
+}
+.flex-vertical-center {
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+section.final{
+  padding-bottom: 100px;
+}
+.gray-bg {
+  
 }
