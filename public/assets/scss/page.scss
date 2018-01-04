@@ -28,7 +28,7 @@ header.portfolio {
 
 #uxmuseum {
   header.portfolio {
-    background-image: url("/../assets/img/figure/cover.png");
+    background-image: url("/../assets/img/figure/p1.png");
   }
   nav {
     .nav-right ul li a {
@@ -38,4 +38,48 @@ header.portfolio {
       color: rgba(255,255,255,1);
     }
   }
+  img {
+    max-width: 100%;
+    height: auto;
+    flex: 0 1;
+  }
+}
+
+section{
+  //padding: 2% 17%;
+  color: #333;
+  // display: flex;
+  // flex-wrap: wrap;
+  // -webkit-justify-content: center;
+  // justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  text-align: center;
+
+  h3 { font-size: 26px; }
+  h4 { font-size: 20px; }
+  p { font-size: 17px;
+    line-height: 1.7em;
+  }
+  h2, h3, h4, h5 {
+    //margin-bottom: 10px;
+  }
+  h2, h3, h4, h5, p, .image-sm{
+    width: 100%;
+    padding: 0% 16%;
+    line-height: 1.7em;
+    text-align: left;
+  }
+  .image-sm {
+    padding: 0% 15%;
+  }
+  h2 {
+    font-size: 32px;
+    font-weight: 700;
+    //line-height: 2em;
+  }
+}
+
+.intro {
+  //margin-top: 60px;
 }

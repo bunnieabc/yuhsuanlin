@@ -16,7 +16,7 @@ header.portfolio {
 }
 
 #uxmuseum header.portfolio {
-  background-image: url("/../assets/img/figure/cover.png");
+  background-image: url("/../assets/img/figure/p1.png");
 }
 
 #uxmuseum nav .nav-right ul li a {
@@ -25,4 +25,46 @@ header.portfolio {
 
 #uxmuseum nav .nav-right ul li.active a {
   color: white;
+}
+
+#uxmuseum img {
+  max-width: 100%;
+  height: auto;
+  flex: 0 1;
+}
+
+section {
+  color: #333;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+section h3 {
+  font-size: 26px;
+}
+
+section h4 {
+  font-size: 20px;
+}
+
+section p {
+  font-size: 17px;
+  line-height: 1.7em;
+}
+
+section h2, section h3, section h4, section h5, section p, section .image-sm {
+  width: 100%;
+  padding: 0% 16%;
+  line-height: 1.7em;
+  text-align: left;
+}
+
+section .image-sm {
+  padding: 0% 15%;
+}
+
+section h2 {
+  font-size: 32px;
+  font-weight: 700;
 }
