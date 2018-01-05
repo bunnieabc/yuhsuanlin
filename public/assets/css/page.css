@@ -56,6 +56,23 @@ header.portfolio {
   color: black;
 }
 
+#blender header.portfolio {
+  background-image: url("/../assets/img/blender/p1.png");
+}
+
+#blender nav .nav-right ul li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#blender nav .nav-right ul li.active a {
+  color: white;
+}
+
+#blender section {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -71,6 +88,12 @@ section {
 
 section h4 {
   font-size: 22px;
+}
+
+section h4.sm {
+  font-size: 18px;
+  font-family: 'Karla';
+  font-weight: 400;
 }
 
 section p {
@@ -112,6 +135,15 @@ section h3 {
 section .other-sm, section .other-md, section .other-lg {
   line-height: 1.7em;
   font-size: 17px;
+}
+
+section button {
+  background: #569CF8;
+  margin: 0px 5px;
+}
+
+section button:hover {
+  background: #3785EE;
 }
 
 .statement {
@@ -215,6 +247,13 @@ section .other-sm, section .other-md, section .other-lg {
   font-weight: 700;
 }
 
+span.link-title {
+  padding-right: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #999;
+}
+
 ul.list {
   font-size: 15px;
 }
@@ -238,5 +277,13 @@ ul.list li {
 }
 
 section.final {
-  padding-bottom: 100px;
+  padding-bottom: 150px;
+}
+
+ul.number {
+  list-style-type: decimal;
+}
+
+span.li-style {
+  padding-left: 15px;
 }
