@@ -107,6 +107,23 @@ header.portfolio {
   padding-top: 60px;
 }
 
+#pandakill header.portfolio {
+  background-image: url("/../assets/img/meichu/p1.png");
+}
+
+#pandakill nav .nav-right ul li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#pandakill nav .nav-right ul li.active a {
+  color: white;
+}
+
+#pandakill section {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
 button#github {
   background: #68C4CA;
 }

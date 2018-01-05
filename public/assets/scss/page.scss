@@ -127,6 +127,24 @@ header.portfolio {
   }
 }
 
+#pandakill {
+  header.portfolio {
+    background-image: url("/../assets/img/meichu/p1.png");
+  }
+  nav {
+    .nav-right ul li a {
+      color: rgba(255,255,255,0.5);
+    }
+    .nav-right ul li.active a {
+      color: rgba(255,255,255,1);
+    }
+  }
+  section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+}
+
 button#github {
   background: $green;
   &:hover {
