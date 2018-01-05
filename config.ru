@@ -205,3 +205,28 @@ map '/portfolio/uxmuseum.html' do
       ]
     }
 end
+
+map '/portfolio/backme.html' do
+    run lambda { |env|
+      [
+        200,
+        {
+          'Content-Type'  => 'text/html',
+          'Cache-Control' => 'public, max-age=86400'
+        },
+        File.open('public/portfolio/backme.html', File::RDONLY)
+      ]
+    }
+end
+map '/portfolio/plusme.html' do
+    run lambda { |env|
+      [
+        200,
+        {
+          'Content-Type'  => 'text/html',
+          'Cache-Control' => 'public, max-age=86400'
+        },
+        File.open('public/portfolio/plusme.html', File::RDONLY)
+      ]
+    }
+end

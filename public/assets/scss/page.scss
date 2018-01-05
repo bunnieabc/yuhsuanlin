@@ -23,7 +23,12 @@ header.portfolio {
   width: 100%;
   background-size: cover;
   padding-bottom: 26%;
-  background-color: $blue;
+  background-color: #000;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 
 #uxmuseum {
@@ -36,6 +41,20 @@ header.portfolio {
     }
     .nav-right ul li.active a {
       color: rgba(255,255,255,1);
+    }
+  }
+}
+
+#backme {
+  header.portfolio {
+    background-image: url("/../assets/img/backme/p1.png");
+  }
+  nav {
+    .nav-right ul li a {
+      color: rgba(0,0,0,0.5);
+    }
+    .nav-right ul li.active a {
+      color: rgba(0,0,0,1);
     }
   }
 }
@@ -52,12 +71,12 @@ section{
   // flex-wrap: wrap;
   // -webkit-justify-content: center;
   // justify-content: center;
-  padding-bottom: 80px;
-  padding-top: 80px;
+  padding-bottom: 70px;
+  padding-top: 70px;
   text-align: center;
 
  
-  h4 { font-size: 20px; }
+  h4 { font-size: 22px; }
   p { font-size: 17px;
     line-height: 1.7em;
   }
@@ -66,12 +85,12 @@ section{
   }
   h2, h3, h4, h5, p,{
     width: 100%;
-    padding: 0% 18%;
+    padding: 0% 17%;
     line-height: 1.7em;
     text-align: left;
     position: relative;
   }
-  .image-sm, .other-sm { padding: 0% 17%; }
+  .image-sm, .other-sm { padding: 0% 16%; }
   .image-md, .other-md { padding: 0% 9%; }
   .image-lg, .other-lg { padding: 0% 0%; }
   h2 {
@@ -80,7 +99,7 @@ section{
     //line-height: 2em;
   }
   h3 { 
-    font-size: 26px;
+    font-size: 28px;
     margin-bottom: 15px;
     margin-top: 15px;
   }
@@ -151,6 +170,13 @@ section{
 .title {
   font-size: 18px;
   font-weight: 700;
+}
+
+ul.list {
+  font-size: 15px;
+  li {
+    margin-bottom: 10px;
+  }
 }
 
 #red {
