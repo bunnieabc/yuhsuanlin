@@ -90,6 +90,25 @@ header.portfolio {
     padding-top: 40px;
   }
 }
+
+#muse {
+  header.portfolio {
+    background-image: url("/../assets/img/muse/p1.png");
+  }
+  nav {
+    .nav-right ul li a {
+      color: rgba(0,0,0,0.5);
+    }
+    .nav-right ul li.active a {
+      color: rgba(0,0,0,1);
+    }
+  }
+  section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+}
+
 button#github {
   background: $green;
   &:hover {

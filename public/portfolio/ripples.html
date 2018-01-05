@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html xmlns:og='http://ogp.me/ns#'>
+<head>
+<title>Yu Hsuan's Portfolio</title>
+  <meta charset="UTF-8">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title></title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <meta content="" property="og:title">
+  <meta content="" property="og:site_name">
+  <meta content="/img/common/FacebookShare.jpg" property="og:image">
+  <meta content="" property="og:description">
+  <link href="/img/common/web-icon.png" rel="shortcut icon">
+  <link rel="stylesheet" href="/assets/css/normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/css/index.css">
+  <link rel="stylesheet" href="/assets/css/page.css">
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700,800|Montserrat:400,400i,600,700,700i,800" rel="stylesheet">
+</head>
+<body id="backme">
+<nav>
+  <div class="nav-left">
+
+  </div>
+  <div class="nav-right">
+    <ul>
+      <li class="active"><a href="../index.html">PORTFOLIO</a></li>
+      <li><a href="../index.html">PLAYGROUND</a></li>
+      <li><a href="/assets/pdf/cv.pdf">ABOUT</a></li>
+    </ul>
+  </div>
+</nav>
+<header class="portfolio"></header>
+
+<section class="intro">
+  <h2>Backme</h2>
+  <h3>Overview</h3>
+  <p>Backme is an independent crowdfunding cash flow system and also a powerful pre-order tools. Users can create crowdfunding campaigns and create crowdfunding rewards on the admin panel. Project-creators can manage their campaign, backers’ data, and transaction records on the admin panel. It is important to present data clearly and quickly and accurately guiding users through complex business processes on the admin panel. I conducted user research and redesigned its admin panel based on their needs. Also, I designed and developed interfaces for new features, including writing feature tests. <br><br></p>
+  <h4>Role</h4>
+  <p>I worked as a product designer and front-end developer and collaborated with project manager and back-end engineer.<br><br></p>
+  <h4>Method & Tool</h4>
+  <p><strong>Method:</strong> Competitive analysis, Persona, Agile, Wireframing, Prototyping, User testing <br>
+<strong>Tool:</strong> Sketch, Prott, Illustrator, HTML, CSS, Javascript, Ruby on Rails, Vue.js, Chart.js<br><br></p>
+  <h4>Design Process</h4>
+  <br><br><br>
+  <div class="image-sm"><img src="/assets/img/backme/p2.png" alt=""></div>
+</section>
+
+<section class="portfolio-content">
+  <h3>Define Problems & User Needs</h3>
+  <p>
+    First of all, I conducted interviews with end users including project creators, engineers and project specialists who are responsible for developing marketing strategies for launching projects, to find out the problems they encountered when they used Backme. The result shows that:
+    <br><br>
+  </p>
+  <div class="image-sm"><img src="/assets/img/backme/p3.png" alt=""></div>
+  <br><br><br>
+  <h4>Problems</h4><br>
+
+  <div class="other-sm flex">
+    <div class="col-40 padding-20">
+      <img src="/assets/img/backme/p4.png" alt="">
+    </div>
+    <div class="col-60 text-left">
+      <ul class="list">
+        <li> Users cannot easily find the search menu on the right side of the screen because the table on the left is too large and users should use a scrollbar to explore the whole interface.
+        </li>
+        <li>Users can hardly find important information since there is no tags or labels in the interface.</li>
+        <li>Project specialists need to spend a lot of time explaining how to use the system for their clients.</li>
+        <li>There is no design guideline for the system and it is hard for engineers to develop the system.</li>
+        <li>The process of creating rewards also causes confusion for both project specialists and project creators.</li>
+        <li>The Email marketing system needs to be updated and also allow users to view the open rate and click rate.</li>
+        <li>Project Specialists wants to see the conversion rate and data resulted from different marketing strategies so that he can modify his strategies immediately.</li>
+
+      </ul>
+    </div>
+  </div>
+  <br><br><br>
+  <h4>Solution</h4>
+  <br><br><br>
+  <div class="image-sm">
+    <img src="/assets/img/backme/p5.png" alt="">
+  </div>
+</section>
+<section class="portfolio-content">
+  <h3>Task 1 : Redesign Project List and Project Dashboard</h3>
+  <p>To solve the problem that the search bar was on the right side and was not easy to be found by users, I redesigned the project list. Users can choose to use “Grid View” which showcases photo and brief introduction of each project or “List View” which can display more projects in the limited space. Moreover, I added tags and labels on the list so that users can find out the project they want more quickly.
+On the other hand, I reorganized the information architecture of Project Dashboard since many users cannot find out project information they need. I interviewed several end users to categorize the information and decide their order.<br><br></p>
+  <h4>Information Architecture</h4>
+  <div class="image-sm">
+    <br><br><br>
+    <img src="/assets/img/backme/p6.png" alt="">
+  </div>
+  <br><br><br><br>
+  <h4>Wireframes</h4>
+  <p>I also created wireframes to discuss with engineers and project specialists to see if this design is feasible or not. Also, I could confirm if this design sove their problems or not. <br><br></p>
+  <div class="image-sm">
+    <img src="/assets/img/backme/p7.png" alt="">
+  </div>
+  <br><br><br><br><br>
+  <h4>High-Fidelity Prototype</h4>
+  <br><br>
+  <div class="image-md">
+    <img src="/assets/img/backme/p8.png" alt="">
+  </div>
+  <br><br><br><br>
+  <h4>Results</h4>
+  <p>This design provides more clear information and intructions and reduces the costs of customer service. Also it reduces workload for project specialists since they can quickly find out information they need.</p>
+</section>
+
+<section class="portfolio-content">
+  <h3>Task 2 : Referral URLs Analytics</h3>
+  
+  <p>For project specialists, they need to develop and modify marketing strategies based on conversion rate of advertisement everyday. They access the conversion rate by using UTM parameters which are simply tags you add to a URL — when your link is clicked, the tags are sent back to Google Analytics and tracked. However, they still need to calculate how much money each link makes. Moreover, they should view the data on Google Analytics and compare the conversion rate with the fund raised on Backme.
+  <br><br>
+  To solve the problem, we access the tracking data and connect it to Backme. I designed interfaces that condensed huge amounts of data into charts which users can easily explore Click Through Rate(CTR) and the money each promotion activity made. Also, I designed a Return On Advertising Spend (ROAS) calculator. After switching to calculator mode, users can key in each advertising cost and quickly get ROAS.</p>
+  <br><br><br>
+  <div class="image-md">
+    <img src="/assets/img/backme/p9.png" alt="">
+  </div>
+</section>
+<section class="portfolio-content">
+  <h3>Development</h3>
+  <p>
+    Several modern web development frameworks were implemented in this project, including Ruby on Rails, Bootstrap and CSS Sass. I mainly took charge of the front-end work (html, css, javascript, Vue.js, D3.js, Chart.js) and used GitHub to work with back-end developers. It was efficient to be both the designer and developer of the project because I had full control of the look of the end result. Involving in front-end and design work, allow me to think from both perspectives and consider more about the feasibility design.
+  </p>
+  <br><br><br>
+  <div class="image-sm">
+    <img src="/assets/img/backme/p10.png" alt="">
+  </div>
+</section>
+<section class="portfolio-content">
+  <h3>Backme Guideline & Module</h3>
+  <p>At first, there was a simple design guideline which provided colors, font styles and basic UI components. However, with the development of new features, we need to create more UI components to adopt to new needs. To make the styles of Backme more consistent, I design a more accurate, clear and reusable UI guideline and modules.</p>
+  <br><br>
+  <div class="image-md">
+    <img src="/assets/img/backme/p11.png" alt="">
+  </div>
+</section>
+<footer>
+  bunnieabc@gmail.com
+</footer>
+</body>
+<script src="/assets/js/jquery-2.1.4.min.js"></script>
+<script src="/assets/js/scrollreveal/scrollreveal.min.js"></script>
+<script src="/assets/js/font.js"></script>
+<script src="/assets/js/animateNumber.js"></script>
+<script src="/assets/js/headroom/headroom.js"></script>
+<script src="/assets/js/headroom/jQuery.headroom.js"></script>
+<script src="/assets/js/aboutScroll.js"></script>
+<script src="/assets/js/index.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90248764-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

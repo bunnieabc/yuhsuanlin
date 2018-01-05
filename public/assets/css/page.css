@@ -73,6 +73,23 @@ header.portfolio {
   padding-top: 40px;
 }
 
+#muse header.portfolio {
+  background-image: url("/../assets/img/muse/p1.png");
+}
+
+#muse nav .nav-right ul li a {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#muse nav .nav-right ul li.active a {
+  color: black;
+}
+
+#muse section {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
 button#github {
   background: #68C4CA;
 }
