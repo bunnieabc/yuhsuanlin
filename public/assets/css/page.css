@@ -44,15 +44,15 @@ header.portfolio {
   color: black;
 }
 
-#backme header.portfolio {
+#plusme header.portfolio {
   background-image: url("/../assets/img/plusme/p1.png");
 }
 
-#backme nav .nav-right ul li a {
+#plusme nav .nav-right ul li a {
   color: rgba(0, 0, 0, 0.5);
 }
 
-#backme nav .nav-right ul li.active a {
+#plusme nav .nav-right ul li.active a {
   color: black;
 }
 
