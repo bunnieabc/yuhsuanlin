@@ -7,7 +7,7 @@ $(window).load(function() {
   });
 
 });
-
+// input effect
 (function($) {
     "use strict";
 
@@ -16,9 +16,49 @@ $(window).load(function() {
 
 })(jQuery);
 
+//filter
+$(".tag").click(function(){
+  var str = $(this).attr("id");
+
+  $(".tag").removeClass("active");
+  $(this).addClass("active");
+
+  if(str != "focus"){
+    $(".project").removeClass("project-col-4").addClass("project-col-6")
+  }
+  else {
+    $(".project").each(function(){
+      if($(this).hasClass("sm")){
+         $(this).removeClass("project-col-6").addClass("project-col-4")
+      }
+    })
+  }
+
+  $(".project").each(function(){
+    var filter = 0;
+    var categories = $(this).data("cate").split(" ");
+
+    for(var i = 0; i < categories.length; i++) {
+      if(categories[i] == str) {
+        $(this).css("display", "block");
+        filter = 1;
+      }
+    }
+    if(filter == 0) {
+      $(this).fadeOut();
+    }
+    else {
+      $(this).hide();
+      $(this).fadeIn();
+    }
+  })
+})
+
+
+
+
 
 var index = 0
-
 var shape = document.getElementById("shape")
 var polygon = document.getElementById("polygon")
 

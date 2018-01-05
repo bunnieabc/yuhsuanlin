@@ -255,37 +255,27 @@ header {
     transition: .1s linear;
   
     &.active {
-      background: #313131;
+      background: $blue;
       color: #fff;
     }
   }
   #uiux {
-    &:hover {
+    &:hover, &.active {
       background: $green;
       color: #FFF;
     }
+
   }
-  #viz {
-    &:hover {
+  #dev {
+    &:hover, &.active {
       background: $yellow;
       color: #FFF;
     }
   }
-  #game {
-    &:hover {
+
+  #visual {
+    &:hover, &.active {
       background: $red;
-      color: #FFF;
-    }
-  }
-  #dev {
-    &:hover {
-      background: $blue;
-      color: #FFF;
-    }
-  }
-  #illustration {
-    &:hover {
-      background: $blue;
       color: #FFF;
     }
   }

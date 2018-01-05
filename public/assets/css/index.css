@@ -254,32 +254,22 @@ header .header-words .social-media a:hover {
 }
 
 .tags .tag.active {
-  background: #313131;
+  background: #569CF8;
   color: #fff;
 }
 
-.tags #uiux:hover {
+.tags #uiux:hover, .tags #uiux.active {
   background: #68C4CA;
   color: #FFF;
 }
 
-.tags #viz:hover {
+.tags #dev:hover, .tags #dev.active {
   background: #F6D839;
   color: #FFF;
 }
 
-.tags #game:hover {
+.tags #visual:hover, .tags #visual.active {
   background: #FF7373;
-  color: #FFF;
-}
-
-.tags #dev:hover {
-  background: #569CF8;
-  color: #FFF;
-}
-
-.tags #illustration:hover {
-  background: #569CF8;
   color: #FFF;
 }
 
