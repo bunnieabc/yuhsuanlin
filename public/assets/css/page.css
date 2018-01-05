@@ -73,6 +73,14 @@ header.portfolio {
   padding-top: 40px;
 }
 
+button#github {
+  background: #68C4CA;
+}
+
+button#github:hover {
+  background: #5EB2C6;
+}
+
 img {
   max-width: 100%;
   height: auto;

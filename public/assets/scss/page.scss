@@ -90,6 +90,12 @@ header.portfolio {
     padding-top: 40px;
   }
 }
+button#github {
+  background: $green;
+  &:hover {
+    background: #5EB2C6;
+  }
+}
 
 img {
   max-width: 100%;
