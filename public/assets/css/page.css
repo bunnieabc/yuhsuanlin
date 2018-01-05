@@ -90,6 +90,23 @@ header.portfolio {
   padding-top: 50px;
 }
 
+#ripples header.portfolio {
+  background-image: url("/../assets/img/ripples/p1.png");
+}
+
+#ripples nav .nav-right ul li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#ripples nav .nav-right ul li.active a {
+  color: white;
+}
+
+#ripples section {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
 button#github {
   background: #68C4CA;
 }
@@ -109,6 +126,12 @@ section {
   padding-bottom: 63px;
   padding-top: 63px;
   text-align: center;
+}
+
+section h5 {
+  font-size: 18px;
+  font-family: 'Karla';
+  margin: 0;
 }
 
 section h4 {
@@ -311,4 +334,8 @@ ul.number {
 
 span.li-style {
   padding-left: 15px;
+}
+
+span.blue {
+  color: #569CF8;
 }

@@ -109,6 +109,24 @@ header.portfolio {
   }
 }
 
+#ripples {
+  header.portfolio {
+    background-image: url("/../assets/img/ripples/p1.png");
+  }
+  nav {
+    .nav-right ul li a {
+      color: rgba(255,255,255,0.5);
+    }
+    .nav-right ul li.active a {
+      color: rgba(255,255,255,1);
+    }
+  }
+  section {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+
 button#github {
   background: $green;
   &:hover {
@@ -129,7 +147,11 @@ section{
   padding-top: 63px;
   text-align: center;
 
- 
+  h5 {
+    font-size: 18px;
+    font-family: 'Karla';
+    margin: 0;
+  }
   h4 { font-size: 22px; }
   h4.sm {
     font-size: 18px;
@@ -271,5 +293,8 @@ ul.number {
 }
 span.li-style {
   padding-left: 15px;
+}
+span.blue {
+  color: $blue;
 }
 

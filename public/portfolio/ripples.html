@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="/assets/css/page.css">
   <link href="https://fonts.googleapis.com/css?family=Karla:400,700,800|Montserrat:400,400i,600,700,700i,800" rel="stylesheet">
 </head>
-<body id="backme">
+<body id="ripples">
 <nav>
   <div class="nav-left">
 
@@ -35,108 +35,164 @@
 <header class="portfolio"></header>
 
 <section class="intro">
-  <h2>Backme</h2>
-  <h3>Overview</h3>
-  <p>Backme is an independent crowdfunding cash flow system and also a powerful pre-order tools. Users can create crowdfunding campaigns and create crowdfunding rewards on the admin panel. Project-creators can manage their campaign, backers’ data, and transaction records on the admin panel. It is important to present data clearly and quickly and accurately guiding users through complex business processes on the admin panel. I conducted user research and redesigned its admin panel based on their needs. Also, I designed and developed interfaces for new features, including writing feature tests. <br><br></p>
-  <h4>Role</h4>
-  <p>I worked as a product designer and front-end developer and collaborated with project manager and back-end engineer.<br><br></p>
-  <h4>Method & Tool</h4>
-  <p><strong>Method:</strong> Competitive analysis, Persona, Agile, Wireframing, Prototyping, User testing <br>
-<strong>Tool:</strong> Sketch, Prott, Illustrator, HTML, CSS, Javascript, Ruby on Rails, Vue.js, Chart.js<br><br></p>
-  <h4>Design Process</h4>
-  <br><br><br>
-  <div class="image-sm"><img src="/assets/img/backme/p2.png" alt=""></div>
-</section>
-
-<section class="portfolio-content">
-  <h3>Define Problems & User Needs</h3>
-  <p>
-    First of all, I conducted interviews with end users including project creators, engineers and project specialists who are responsible for developing marketing strategies for launching projects, to find out the problems they encountered when they used Backme. The result shows that:
-    <br><br>
-  </p>
-  <div class="image-sm"><img src="/assets/img/backme/p3.png" alt=""></div>
-  <br><br><br>
-  <h4>Problems</h4><br>
-
+  <h2>News Ripples</h2>
+  <br>
+  <h4>Problem</h4>
+  <p>When people try to find news on a specific topic on the Internet, it is not only difficult to trace all of them but also almost impossible to go through the whole thread because the news articles are scattered. Moreover, it is hard to identify which piece of news people are more concerned about in a series of news events.></p>
+  <br>
   <div class="other-sm flex">
-    <div class="col-40 padding-20">
-      <img src="/assets/img/backme/p4.png" alt="">
+    <div class="col-70 text-left">
+      <div class="title text-left">Solution</div>
+      In this research, we focused on 3 attributes of news: time, popularity, and degree of association between articles. The project was conducted in 3 different stages using bar charts, metro maps, and interactive ripples to analyze the news data. Users can see the news events chronologically and ripples' size represents how many people concerned about the piece of news.
     </div>
-    <div class="col-60 text-left">
-      <ul class="list">
-        <li> Users cannot easily find the search menu on the right side of the screen because the table on the left is too large and users should use a scrollbar to explore the whole interface.
-        </li>
-        <li>Users can hardly find important information since there is no tags or labels in the interface.</li>
-        <li>Project specialists need to spend a lot of time explaining how to use the system for their clients.</li>
-        <li>There is no design guideline for the system and it is hard for engineers to develop the system.</li>
-        <li>The process of creating rewards also causes confusion for both project specialists and project creators.</li>
-        <li>The Email marketing system needs to be updated and also allow users to view the open rate and click rate.</li>
-        <li>Project Specialists wants to see the conversion rate and data resulted from different marketing strategies so that he can modify his strategies immediately.</li>
-
-      </ul>
+    <div class="col-30 text-left padding-20">
+      <img src="/assets/img/ripples/p2.png" alt="">
     </div>
   </div>
-  <br><br><br>
-  <h4>Solution</h4>
-  <br><br><br>
-  <div class="image-sm">
-    <img src="/assets/img/backme/p5.png" alt="">
-  </div>
-</section>
-<section class="portfolio-content">
-  <h3>Task 1 : Redesign Project List and Project Dashboard</h3>
-  <p>To solve the problem that the search bar was on the right side and was not easy to be found by users, I redesigned the project list. Users can choose to use “Grid View” which showcases photo and brief introduction of each project or “List View” which can display more projects in the limited space. Moreover, I added tags and labels on the list so that users can find out the project they want more quickly.
-On the other hand, I reorganized the information architecture of Project Dashboard since many users cannot find out project information they need. I interviewed several end users to categorize the information and decide their order.<br><br></p>
-  <h4>Information Architecture</h4>
-  <div class="image-sm">
-    <br><br><br>
-    <img src="/assets/img/backme/p6.png" alt="">
-  </div>
-  <br><br><br><br>
-  <h4>Wireframes</h4>
-  <p>I also created wireframes to discuss with engineers and project specialists to see if this design is feasible or not. Also, I could confirm if this design sove their problems or not. <br><br></p>
-  <div class="image-sm">
-    <img src="/assets/img/backme/p7.png" alt="">
-  </div>
-  <br><br><br><br><br>
-  <h4>High-Fidelity Prototype</h4>
-  <br><br>
-  <div class="image-md">
-    <img src="/assets/img/backme/p8.png" alt="">
-  </div>
-  <br><br><br><br>
-  <h4>Results</h4>
-  <p>This design provides more clear information and intructions and reduces the costs of customer service. Also it reduces workload for project specialists since they can quickly find out information they need.</p>
+  <br>
+  <h4>Role</h4>
+  <p>I was responsible for data analysis, front-end development and data visualization in a team of 3 people.</p>
+  <br>
+  <h4>Method & Tool</h4>
+  <p>
+    <strong>Method:</strong> Data Analysis, Data Visualization, Web Development <br>
+    <strong>Tool:</strong> HTML, CSS, Javascript, D3.js, Python <br><br>
+  </p>
 </section>
 
-<section class="portfolio-content">
-  <h3>Task 2 : Referral URLs Analytics</h3>
-  
-  <p>For project specialists, they need to develop and modify marketing strategies based on conversion rate of advertisement everyday. They access the conversion rate by using UTM parameters which are simply tags you add to a URL — when your link is clicked, the tags are sent back to Google Analytics and tracked. However, they still need to calculate how much money each link makes. Moreover, they should view the data on Google Analytics and compare the conversion rate with the fund raised on Backme.
-  <br><br>
-  To solve the problem, we access the tracking data and connect it to Backme. I designed interfaces that condensed huge amounts of data into charts which users can easily explore Click Through Rate(CTR) and the money each promotion activity made. Also, I designed a Return On Advertising Spend (ROAS) calculator. After switching to calculator mode, users can key in each advertising cost and quickly get ROAS.</p>
-  <br><br><br>
-  <div class="image-md">
-    <img src="/assets/img/backme/p9.png" alt="">
-  </div>
-</section>
 <section class="portfolio-content">
   <h3>Development</h3>
+  <h4>Overview</h4>
   <p>
-    Several modern web development frameworks were implemented in this project, including Ruby on Rails, Bootstrap and CSS Sass. I mainly took charge of the front-end work (html, css, javascript, Vue.js, D3.js, Chart.js) and used GitHub to work with back-end developers. It was efficient to be both the designer and developer of the project because I had full control of the look of the end result. Involving in front-end and design work, allow me to think from both perspectives and consider more about the feasibility design.
+    Developed the visualization system using D3.js, Python and Javascript. Used web crawler to collect articles on specific topics from the most popular news websites in Taiwan. Then analyzed the degree of association between such articles and filtered out insignificant news using python. After that, I visualized the data on a site. Presented the news events as raindrop ripples in an interactive way on the website as users can view details of the news events by clicking ripples.
   </p>
+  <br>
+  <div class="image-sm"><img src="/assets/img/ripples/p3.png" alt=""></div>
   <br><br><br>
+  <h4>Development Steps</h4>
+  <br>
+  <div class="image-sm"><img src="/assets/img/ripples/p4.png" alt=""></div>
+  <br><br><br><br>
+  <h4>The First Phase</h4>
+  <h5>Interactive Stacked Bar Chart</h5>
+  <br><br>
   <div class="image-sm">
-    <img src="/assets/img/backme/p10.png" alt="">
+    <img src="/assets/img/ripples/p5.png" alt="">
+  </div>
+  <br>
+  <p>In this stage, we focused on news events' time and popularity. We defined the x-axis as the time that an article was published, and y-axis as the an article’s popularity in order to observe the news events' peak. The color depth represents the degree of association toward a specific topic. The more relative to a specific topic, the deeper the color a news event displays. <br>
+  While we collected more than 500 news events, it is difficult to trace all of them and see the degree of association between articles. We also found that some of the articles which were not highly relative to a topic have high popularity; hence, we speculated that there exists a sub-branch of news.
+  </p>
+  <br>
+  <div class="image-sm">
+    <img src="/assets/img/ripples/p6.png" alt="">
+  </div>
+
+  <br><br><br><br><br>
+
+  <h4>The Second Phase</h4>
+  <h5>Metro Map</h5>
+  <br>
+  <div class="image-sm">
+    <img src="/assets/img/ripples/p7.png" alt="">
+  </div>
+  <br>
+  <p>
+    We used a metro map metaphor for visualizing news events because we found that the structure of a series of news events is similar to that of a Metro map. A series of news events could consist of several sub-branches while each sub-branch crosses over with the main branch at a news event. Take the piece of news, "Gutter Oil Scandal", as an example. In the series of new events, there are 1 main branch and 2 sub-branches. The blue line depicts the main branch, whereas the orange line represents news about unethical companies that produced gutter oil, and the purple line concerned pulling gutter oil products from shelves. Each node represents a news article.
+  </p>
+  <div class="image-sm">
+    <img src="/assets/img/ripples/p8.png" alt="">
   </div>
 </section>
 <section class="portfolio-content">
-  <h3>Backme Guideline & Module</h3>
-  <p>At first, there was a simple design guideline which provided colors, font styles and basic UI components. However, with the development of new features, we need to create more UI components to adopt to new needs. To make the styles of Backme more consistent, I design a more accurate, clear and reusable UI guideline and modules.</p>
-  <br><br>
-  <div class="image-md">
-    <img src="/assets/img/backme/p11.png" alt="">
+  <h3 style="margin-bottom: 0px">The Third Phase</h3>
+  <h4>Interactive Ripple Animated Visualization</h4>
+  <br><br><br>
+  <div class="image-sm">
+    <img src="/assets/img/ripples/p9.png" alt="">
   </div>
+  <br>
+  <p>
+    In the third stage, I combined the visualization methods in the former stages and added animation techniques into the visualization. There are two types of visualization – linear trajectory visualization and circular trajectory visualization.
+  </p>
+
+  <br><br><br>
+  <div class="other-sm flex">
+    <div class="col-60 text-left">
+      <div class="title text-left">Ripple as Metaphor</div>
+      <br>
+      I drew an analogy between news and raindrop ripples because news is successive and continuous, which is similar to raindrop ripples. Each article is a ripple and news events display ripple animation chronologically. The ripples leave hollow circles after showing.
+      The size of ripples represent each news article's popularity. Ripple colors symbolize news event's branch.
+    </div>
+    <div class="col-40 text-left padding-20">
+      <img src="/assets/img/ripples/p10.png" alt="">
+    </div>
+  </div>
+  <br><br><br>
+  <h4>
+    Linear Trajectory Visualization <br>
+    <span class="blue">Focus on Time</span>
+  </h4>
+  <br>
+
+  <div class="other-sm flex flex-vertical-center">
+    <div class="col-40 text-left padding-20" style="padding-left: 0px; padding-right: 30px;">
+      It is a time-oriented visualization. The x-axis symbolizes news events' chronological order, and ripples show up from left to right (Figure 0.1). The red line in the picture is the main branch and the orange and green lines are sub-branches.
+    </div>
+     <div class="col-60 text-left padding-20" >
+      <img src="/assets/img/ripples/p11.png" alt="">
+    </div>
+  </div>
+  <br>
+  <h4>Demo Video</h4>
+  <br>
+  <div class="other-sm text-left">
+    <iframe src="https://player.vimeo.com/video/140438996" width="800" height="450px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+  <br><br><br><br>
+  <h4>
+    Circular Trajectory Visualization <br>
+    <span class="blue">Focus on Degree of Association</span>
+  </h4>
+  <br>
+  <div class="other-sm flex flex-vertical-center">
+    <div class="col-40 text-left padding-20" style="padding-left: 0px; padding-right: 30px;">
+      The large, filled circles in the background contain each branch's topic(keywords), and the size of the large circles are proportional to number of events in the branch. The distance between each ripple to the large, filled circle 's center represents its degree of association toward a news topic. All ripples show up around the center of large circle (news topic) chronologically .
+
+    </div>
+    <div class="col-60 text-left padding-20" >
+      <img src="/assets/img/ripples/p12.png" alt="">
+    </div>
+  </div>
+  <br>
+  <h4>Demo Video</h4>
+  <br>
+  <div class="other-sm text-left">
+    <iframe src="https://player.vimeo.com/video/199557457" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+</section>
+
+<section class="portfolio-content">
+  <br><br>
+  <h4>Case Study 1 : Gutter Oil Scandal</h4>
+  <br>
+  <div class="image-sm">
+    <img src="/assets/img/ripples/p13.png" alt="">
+  </div>
+  <p>
+    The Gutter Oil scandal refers to a series of food safety incidents that took place in Taiwan in 2014. In Figure 2, we can see that the incidents first came to light in September, 2014, and then more and more people became concerned about the incidents. In Figure 3, we can see that the news has three news branches. In Figure1, the circular trajectory visualization method combines the advantages from the two former visualizations, presenting three news topics, popularity of each article, and each article’s degree of association towards the news topic.
+  </p>
+  <br><br><br>
+  <h4>Case Study 2 : Death Penalty</h4>
+  <br>
+  <div class="image-sm">
+    <img src="/assets/img/ripples/p14.png" alt="">
+  </div>
+  <br>
+  <p>
+    Death Penalty has been a controversial issue for more than 10 years in Taiwan. In Figures 4 and 5, we can see that it has recently gained even more attention. In Figure 6, we can see that there are three topics – death penalty(red), implementation of death penalty(green circle), and abolition of death penalty(organge circle).
+  </p>
+  <br><br><br>
 </section>
 <footer>
   bunnieabc@gmail.com
