@@ -201,17 +201,17 @@ header .header-words .header-contents .school {
   color: #333;
 }
 
-header .header-words .social-media {
+.social-media {
   margin-top: 15px;
 }
 
-header .header-words .social-media img {
-  width: 26px;
+.social-media img {
+  width: 24px;
   margin: 10px 3px;
 }
 
-header .header-words .social-media a {
-  opacity: 0.6;
+.social-media a {
+  opacity: 0.7;
   -webkit-transition: .1s linear;
   -moz-transition: .1s linear;
   -ms-transition: .1s linear;
@@ -219,7 +219,7 @@ header .header-words .social-media a {
   transition: .1s linear;
 }
 
-header .header-words .social-media a:hover {
+.social-media a:hover {
   opacity: 1;
 }
 
@@ -513,17 +513,23 @@ hr.short-center {
 }
 
 footer {
-  height: 60px;
+  position: relative;
   width: 100%;
-  margin-bottom: 0px;
   color: #333;
   padding-bottom: 40px;
   display: flex;
+  flex-wrap: wrap;
   -webkit-align-items: center;
   align-items: center;
   text-align: center;
   -webkit-justify-content: center;
   justify-content: center;
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+
+.copyright {
+  width: 100%;
 }
 
 button {
