@@ -429,6 +429,8 @@ header .header-words .social-media a:hover {
   position: absolute;
   width: 100%;
   height: 100%;
+  top: 0px;
+  left: 0px;
   -webkit-align-items: center;
   align-items: center;
   -webkit-justify-content: center;
@@ -677,7 +679,7 @@ button.download {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   nav {
     padding: 0px;
     text-align: center;

@@ -21,7 +21,7 @@ header.portfolio {
   justify-content: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   header.portfolio {
     height: auto;
     padding-bottom: 60%;
@@ -207,7 +207,7 @@ section .image-sm, section .other-sm, section h2, section h3, section h4, sectio
   padding: 0% 16.5%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   section .image-sm, section .other-sm, section h2, section h3, section h4, section h5, section p {
     padding: 0% 4%;
   }
@@ -217,7 +217,7 @@ section .image-md, section .other-md {
   padding: 0% 9%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   section .image-md, section .other-md {
     padding: 0% 4%;
   }
@@ -285,7 +285,7 @@ section button:hover {
   padding-left: 20px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .statement {
     height: 90px;
   }
@@ -359,7 +359,7 @@ section button:hover {
   width: 90%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .col-10, .col-20, .col-30, .col-40, .col-50, .col-60, .col-70, .col-80, .col-90 {
     width: 100%;
   }
