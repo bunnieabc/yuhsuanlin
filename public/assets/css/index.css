@@ -390,7 +390,7 @@ header .header-words .social-media a:hover {
 }
 
 .project .project-pic #drama {
-  background: rgba(255, 192, 196, 0.9);
+  background: rgba(209, 244, 246, 0.9);
 }
 
 .project .project-pic #drama .pic-hover-content {
@@ -426,7 +426,11 @@ header .header-words .social-media a:hover {
 }
 
 .project .project-pic #w4 {
-  background: rgba(76, 164, 185, 0.9);
+  background: rgba(249, 197, 198, 0.9);
+}
+
+.project .project-pic #w4 .pic-hover-content {
+  color: #1b223f;
 }
 
 .project .project-pic .pic-hover {
