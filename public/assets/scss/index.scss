@@ -61,8 +61,9 @@ nav {
   flex-wrap: wrap;
   width: 100%;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   padding: 0px 10px;
+  padding-right: 20px;
   height: 70px;
 
   .nav-left {
@@ -94,7 +95,7 @@ nav {
         transition: .1s linear;
         text-align: center;
         box-shadow: 0px 0px 0px 0px #fff;
-        font-weight: 600;
+        font-weight: 700;
         font-size: 15px;
         padding-bottom: 5px;
         a{
@@ -521,6 +522,7 @@ footer {
   justify-content: center;
   padding-bottom: 30px;
   font-size: 16px;
+  margin-top: 70px;
 }
 .copyright {
   width: 100%;
