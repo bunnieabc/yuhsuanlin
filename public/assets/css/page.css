@@ -160,6 +160,30 @@ header.portfolio {
   font-size: 24px;
 }
 
+#divvy header.portfolio {
+  background-image: url("/../assets/img/divvy/p1.png");
+  padding-bottom: 18%;
+}
+
+@media (max-width: 768px) {
+  #divvy header.portfolio {
+    padding-bottom: 60%;
+  }
+}
+
+#divvy nav .nav-right ul li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#divvy nav .nav-right ul li.active a {
+  color: white;
+}
+
+#divvy section {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
 #fishbowl header.portfolio {
   background-image: url("/../assets/img/fishbowl/p1.png");
   padding-bottom: 18%;
@@ -219,6 +243,12 @@ section h4 {
   font-size: 22px;
 }
 
+@media (max-width: 768px) {
+  section h4 {
+    font-size: 18px;
+  }
+}
+
 section h4.sm {
   font-size: 18px;
   font-family: 'Karla';
@@ -266,10 +296,22 @@ section h2 {
   font-weight: 700;
 }
 
+@media (max-width: 768px) {
+  section h2 {
+    font-size: 28px;
+  }
+}
+
 section h3 {
   font-size: 28px;
   margin-bottom: 15px;
   margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  section h3 {
+    font-size: 26px;
+  }
 }
 
 section .other-sm, section .other-md, section .other-lg {

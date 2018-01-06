@@ -297,6 +297,18 @@ map '/portfolio/graphics.html' do
     }
 end
 
+map '/portfolio/divvy.html' do
+    run lambda { |env|
+      [
+        200,
+        {
+          'Content-Type'  => 'text/html',
+          'Cache-Control' => 'public, max-age=86400'
+        },
+        File.open('public/portfolio/divvy.html', File::RDONLY)
+      ]
+    }
+end
 map '/portfolio/fishbowlman.html' do
     run lambda { |env|
       [

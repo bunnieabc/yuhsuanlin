@@ -175,7 +175,27 @@ header.portfolio {
     }
   }
 }
-
+#divvy {
+  header.portfolio {
+    background-image: url("/../assets/img/divvy/p1.png");
+    padding-bottom: 18%;
+    @media(max-width: 768px){ 
+      padding-bottom: 60%;
+    }
+  }
+  nav {
+    .nav-right ul li a {
+      color: rgba(255,255,255,0.5);
+    }
+    .nav-right ul li.active a {
+      color: rgba(255,255,255,1);
+    }
+  }
+  section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+}
 
 #fishbowl {
   header.portfolio {
@@ -228,7 +248,14 @@ section{
     font-family: 'Karla';
     margin: 0;
   }
-  h4 { font-size: 22px; }
+  h4 {
+    font-size: 22px;
+    @media(max-width: 768px){ 
+      font-size: 18px;
+    }
+  }
+  
+
   h4.sm {
     font-size: 18px;
     font-family: 'Karla';
@@ -265,12 +292,18 @@ section{
   h2 {
     font-size: 32px;
     font-weight: 700;
+    @media(max-width: 768px){ 
+      font-size: 28px;
+    }
     //line-height: 2em;
   }
   h3 { 
     font-size: 28px;
     margin-bottom: 15px;
     margin-top: 15px;
+    @media(max-width: 768px){ 
+      font-size: 26px;
+    }
   }
 
   .other-sm, .other-md, .other-lg { 
