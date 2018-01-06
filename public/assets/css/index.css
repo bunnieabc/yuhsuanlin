@@ -377,11 +377,19 @@ header .header-words .social-media a:hover {
 }
 
 .project .project-pic #ripple {
-  background: rgba(41, 45, 48, 0.9);
+  background: rgba(113, 195, 242, 0.9);
+}
+
+.project .project-pic #ripple .pic-hover-content {
+  color: #1d3b5a;
 }
 
 .project .project-pic #drama {
-  background: rgba(253, 65, 140, 0.9);
+  background: rgba(255, 192, 196, 0.9);
+}
+
+.project .project-pic #drama .pic-hover-content {
+  color: #222;
 }
 
 .project .project-pic #muse {

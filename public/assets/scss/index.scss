@@ -377,11 +377,17 @@ header {
       background: rgba(98, 155, 245, 0.9);
     }
     #ripple {
-      background: rgba(41, 45, 48, 0.9);
+      background: rgba(113, 195, 242, 0.9);
+      .pic-hover-content {
+        color: #1d3b5a;
+      }
     }
 
     #drama {
-      background: rgba(253, 65, 140, 0.9);
+      background: rgba(255, 192, 196, 0.9);
+      .pic-hover-content {
+        color: #222;
+      }
     }
 
     #muse {
