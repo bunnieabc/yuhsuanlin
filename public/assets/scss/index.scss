@@ -210,7 +210,7 @@ header {
         margin: 10px 3px;
       }
       a {
-        opacity: 0.2;
+        opacity: 0.6;
         -webkit-transition: .1s linear;
         -moz-transition: .1s linear;
         -ms-transition: .1s linear;
@@ -218,7 +218,7 @@ header {
         transition: .1s linear;
       }
       a:hover {
-        opacity: 0.9;
+        opacity: 1;
       }
     }
   }
@@ -507,11 +507,12 @@ hr.short-center {
   margin-bottom: 10px;
 }
 footer {
-  background: #555;
+  //background: #555;
   height: 60px;
   width: 100%;
   margin-bottom: 0px;
-  color: #FFF;
+  color: #333;
+  padding-bottom: 40px;
   display: flex;
   -webkit-align-items: center;
   align-items: center;
