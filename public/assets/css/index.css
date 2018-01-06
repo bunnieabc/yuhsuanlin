@@ -245,7 +245,7 @@ header .header-words .social-media a:hover {
   border-radius: 4px;
   font-size: 16px;
   font-weight: 600;
-  margin: 0px 5px;
+  margin: 5px 5px;
   -webkit-transition: .1s linear;
   -moz-transition: .1s linear;
   -ms-transition: .1s linear;
@@ -698,31 +698,15 @@ button.download {
   }
   header {
     height: 100%;
+    padding: 6%;
   }
-  header .header-inside {
-    background-position: 50% 5%;
-    background-size: 85%;
-  }
-  header .header-left {
-    font-size: 26px;
-    padding: 0px;
-  }
-  header .header-left .header-left-inside {
-    margin-top: 92%;
+  header .header-words {
     width: 100%;
+    padding-left: 0%;
     text-align: center;
-  }
-  .header-left-inside {
-    width: 100%;
-  }
-  hr.short {
-    display: none;
-  }
-  header .header-left .header-left-inside span {
-    font-size: 16px;
   }
   .project {
     width: 100%;
-    padding: 5%;
+    padding: 2%;
   }
 }

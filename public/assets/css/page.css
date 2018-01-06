@@ -191,18 +191,29 @@ section p {
 
 section h2, section h3, section h4, section h5, section p {
   width: 100%;
-  padding: 0% 16.5%;
   line-height: 1.7em;
   text-align: left;
   position: relative;
 }
 
-section .image-sm, section .other-sm {
+section .image-sm, section .other-sm, section h2, section h3, section h4, section h5, section p {
   padding: 0% 16.5%;
+}
+
+@media (max-width: 500px) {
+  section .image-sm, section .other-sm, section h2, section h3, section h4, section h5, section p {
+    padding: 0% 4%;
+  }
 }
 
 section .image-md, section .other-md {
   padding: 0% 9%;
+}
+
+@media (max-width: 500px) {
+  section .image-md, section .other-md {
+    padding: 0% 4%;
+  }
 }
 
 section .image-lg, section .other-lg {
@@ -251,6 +262,7 @@ section button:hover {
   font-size: 22px;
   color: #777;
   padding: 0px 20px;
+  position: relative;
   height: 100%;
   display: flex;
   -webkit-align-items: center;
@@ -260,9 +272,19 @@ section button:hover {
 .statement .statement-content, .statement .statement-title {
   font-size: 18px;
   display: flex;
+  position: relative;
   -webkit-align-items: center;
   align-items: center;
   padding-left: 20px;
+}
+
+@media (max-width: 500px) {
+  .statement {
+    height: 90px;
+  }
+  .statement .statement-title, .statement .statement-content {
+    font-size: 16px;
+  }
 }
 
 .box {
@@ -328,6 +350,12 @@ section button:hover {
 
 .col-90 {
   width: 90%;
+}
+
+@media (max-width: 500px) {
+  .col-10, .col-20, .col-30, .col-40, .col-50, .col-60, .col-70, .col-80, .col-90 {
+    width: 100%;
+  }
 }
 
 .padding-20 {
@@ -400,4 +428,28 @@ span.blue {
 
 .poster img {
   max-width: 400px;
+}
+
+.iframe-rwd {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+
+/* 16x9 Aspect Ratio */
+.iframe-rwd-16x9 {
+  padding-bottom: 56.25%;
+}
+
+/* 4x3 Aspect Ratio */
+.iframe-rwd-4x3 {
+  padding-bottom: 75%;
+}
+
+.iframe-rwd iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
