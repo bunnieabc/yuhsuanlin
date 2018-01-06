@@ -22,6 +22,7 @@ body {
 header.portfolio {
   width: 100%;
   background-size: cover;
+  background-position: center;
   padding-bottom: 26%;
   background-color: #000;
   display: flex;
@@ -159,8 +160,12 @@ header.portfolio {
     }
   }
   section {
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    
+    h4 {
+      font-size: 24px;
+    }
   }
 }
 
@@ -211,6 +216,7 @@ section{
   .image-sm, .other-sm { padding: 0% 16.5%; }
   .image-md, .other-md { padding: 0% 9%; }
   .image-lg, .other-lg { padding: 0% 0%; }
+
   h2 {
     font-size: 32px;
     font-weight: 700;
@@ -286,15 +292,23 @@ section{
 .col-30 { width: 30%; }
 .col-40 { width: 40%; }
 .col-50 { width: 50%; }
+.col-55 { width: 55%; }
+.col-45 { width: 45%; }
 .col-60 { width: 60%; }
 .col-70 { width: 70%; }
 .col-80 { width: 80%; }
 .col-90 { width: 90%; }
 .padding-20 { padding: 20px; }
+.padding-per { padding: 5%; }
+.padding-right {
+  padding-right: 6%;
+  
+}
 .text-left { text-align: left; }
 .title {
   font-size: 22px;
   font-weight: 700;
+  width: 100%;
 }
 span.link-title {
   padding-right: 40px;
@@ -316,6 +330,7 @@ ul.list {
 }
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 .flex-vertical-center {
   -webkit-align-items: center;
@@ -334,4 +349,8 @@ span.li-style {
 span.blue {
   color: $blue;
 }
-
+.poster {
+  img {
+    max-width: 400px;
+  }
+}

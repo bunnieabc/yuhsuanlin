@@ -11,6 +11,7 @@ body {
 header.portfolio {
   width: 100%;
   background-size: cover;
+  background-position: center;
   padding-bottom: 26%;
   background-color: #000;
   display: flex;
@@ -138,8 +139,12 @@ header.portfolio {
 }
 
 #graphics section {
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+#graphics section h4 {
+  font-size: 24px;
 }
 
 button#github {
@@ -301,6 +306,14 @@ section button:hover {
   width: 50%;
 }
 
+.col-55 {
+  width: 55%;
+}
+
+.col-45 {
+  width: 45%;
+}
+
 .col-60 {
   width: 60%;
 }
@@ -321,6 +334,14 @@ section button:hover {
   padding: 20px;
 }
 
+.padding-per {
+  padding: 5%;
+}
+
+.padding-right {
+  padding-right: 6%;
+}
+
 .text-left {
   text-align: left;
 }
@@ -328,6 +349,7 @@ section button:hover {
 .title {
   font-size: 22px;
   font-weight: 700;
+  width: 100%;
 }
 
 span.link-title {
@@ -352,6 +374,7 @@ ul.list li {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .flex-vertical-center {
@@ -373,4 +396,8 @@ span.li-style {
 
 span.blue {
   color: #569CF8;
+}
+
+.poster img {
+  max-width: 400px;
 }
