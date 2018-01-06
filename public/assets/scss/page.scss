@@ -154,6 +154,9 @@ header.portfolio {
   header.portfolio {
     background-image: url("/../assets/img/graphics/p1.png");
     padding-bottom: 18%;
+    @media(max-width: 768px){ 
+      padding-bottom: 60%;
+    }
   }
   nav {
     .nav-right ul li a {
@@ -382,7 +385,10 @@ span.blue {
 }
 .poster {
   img {
-    max-width: 400px;
+    max-width: 90%;
+    @media(max-width: 768px){ 
+      width: 100%;
+    }
   }
 }
 .iframe-rwd {

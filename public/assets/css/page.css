@@ -137,6 +137,12 @@ header.portfolio {
   padding-bottom: 18%;
 }
 
+@media (max-width: 768px) {
+  #graphics header.portfolio {
+    padding-bottom: 60%;
+  }
+}
+
 #graphics nav .nav-right ul li a {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -435,7 +441,13 @@ span.blue {
 }
 
 .poster img {
-  max-width: 400px;
+  max-width: 90%;
+}
+
+@media (max-width: 768px) {
+  .poster img {
+    width: 100%;
+  }
 }
 
 .iframe-rwd {
