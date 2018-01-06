@@ -176,6 +176,33 @@ header.portfolio {
   }
 }
 
+
+#fishbowl {
+  header.portfolio {
+    background-image: url("/../assets/img/fishbowl/p1.png");
+    padding-bottom: 18%;
+    @media(max-width: 768px){ 
+      padding-bottom: 60%;
+    }
+  }
+  nav {
+    .nav-right ul li a {
+      color: rgba(255,255,255,0.5);
+    }
+    .nav-right ul li.active a {
+      color: rgba(255,255,255,1);
+    }
+  }
+  section {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    
+    h4 {
+      font-size: 24px;
+    }
+  }
+}
+
 button#github {
   background: $green;
   &:hover {
