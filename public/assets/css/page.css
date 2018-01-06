@@ -250,7 +250,7 @@ section h4 {
 }
 
 section h4.sm {
-  font-size: 18px;
+  font-size: 21px;
   font-family: 'Karla';
   font-weight: 400;
 }
@@ -292,7 +292,7 @@ section .image-lg, section .other-lg {
 }
 
 section h2 {
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 700;
 }
 
@@ -310,7 +310,7 @@ section h3 {
 
 @media (max-width: 768px) {
   section h3 {
-    font-size: 26px;
+    font-size: 23px;
   }
 }
 
