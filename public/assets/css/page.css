@@ -124,6 +124,24 @@ header.portfolio {
   padding-top: 50px;
 }
 
+#graphics header.portfolio {
+  background-image: url("/../assets/img/graphics/p1.png");
+  padding-bottom: 18%;
+}
+
+#graphics nav .nav-right ul li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#graphics nav .nav-right ul li.active a {
+  color: white;
+}
+
+#graphics section {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
 button#github {
   background: #68C4CA;
 }

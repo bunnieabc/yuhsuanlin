@@ -283,3 +283,16 @@ map '/portfolio/pandakill.html' do
     }
 end
 
+
+map '/portfolio/graphics.html' do
+    run lambda { |env|
+      [
+        200,
+        {
+          'Content-Type'  => 'text/html',
+          'Cache-Control' => 'public, max-age=86400'
+        },
+        File.open('public/portfolio/graphics.html', File::RDONLY)
+      ]
+    }
+end
