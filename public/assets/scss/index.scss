@@ -191,6 +191,10 @@ header {
       .typing {
         font-weight: 700;
       }
+      .under-typing {
+        width: 100%;
+        display: block;
+      }
       .school {
         font-size: 16px;
         color: #333;
@@ -696,11 +700,23 @@ $loader-size: 45px;
         width: 100%;
         padding-left: 0%;
         text-align: center;
+        line-height: 1.5em;
+        .header-title {
+          font-size: 28px;
+        }
+        .header-contents {
+          font-size: 20px;
+          span.typing {
+            width: 100%;
+            display: block
+          }
+        }
       }
+      
     }
 
     .project {
       width: 100%;
-      padding: 2%;
+      padding: 1%;
     }
 }
