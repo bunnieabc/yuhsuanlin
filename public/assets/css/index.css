@@ -680,25 +680,29 @@ button.download {
 @media (max-width: 500px) {
   nav {
     padding: 0px;
-    padding-left: 20px;
+    text-align: center;
   }
   nav .nav-left {
-    width: 40%;
+    width: 0%;
   }
   nav .nav-right {
-    width: 60%;
+    width: 100%;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  nav ul {
+    padding-left: 0px;
   }
   nav .nav-left .logo {
     font-size: 14px;
   }
   nav .nav-right ul li {
-    font-size: 12px;
-    margin: 0;
-    margin-right: 10px;
+    font-size: 16px;
   }
   header {
     height: 100%;
     padding: 6%;
+    padding-top: 15%;
   }
   header .header-words {
     width: 100%;

@@ -30,6 +30,10 @@ header.portfolio {
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
+  @media(max-width: 500px){ 
+    height: auto;
+    padding-bottom: 60%;
+  }
 }
 
 #uxmuseum {

@@ -21,6 +21,13 @@ header.portfolio {
   justify-content: center;
 }
 
+@media (max-width: 500px) {
+  header.portfolio {
+    height: auto;
+    padding-bottom: 60%;
+  }
+}
+
 #uxmuseum header.portfolio {
   background-image: url("/../assets/img/figure/p1.png");
 }
