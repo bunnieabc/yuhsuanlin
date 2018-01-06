@@ -405,11 +405,14 @@ header {
       background: rgba(255, 162, 83, 0.9);
     }
     #w1 {
-      background: rgba(43, 160, 255,0.9);
+      background: rgba(230, 236, 238, 0.9);
+      .pic-hover-content {
+        color: #1b223f;
+      }
     }
 
     #w2 {
-      background: rgba(238, 73, 102, 0.9);
+      background: rgba(230, 236, 238, 0.9);
     }
 
     #w3 {
