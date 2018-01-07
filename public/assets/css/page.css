@@ -29,7 +29,7 @@ header.portfolio {
 }
 
 #uxmuseum header.portfolio {
-  background-image: url("/../assets/img/figure/p1.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/figure/p1.png");
 }
 
 #uxmuseum nav .nav-right ul li a {
@@ -41,7 +41,7 @@ header.portfolio {
 }
 
 #backme header.portfolio {
-  background-image: url("/../assets/img/backme/p1.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/backme/p1.png");
 }
 
 #backme nav .nav-right ul li a {
@@ -53,7 +53,7 @@ header.portfolio {
 }
 
 #plusme header.portfolio {
-  background-image: url("/../assets/img/plusme/p1.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/plusme/p1.png");
 }
 
 #plusme nav .nav-right ul li a {
@@ -65,7 +65,7 @@ header.portfolio {
 }
 
 #blender header.portfolio {
-  background-image: url("/../assets/img/blender/p1.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/blender/p1.png");
 }
 
 #blender nav .nav-right ul li a {
@@ -82,7 +82,7 @@ header.portfolio {
 }
 
 #muse header.portfolio {
-  background-image: url("/../assets/img/muse/p1.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/muse/p1.png");
 }
 
 #muse nav .nav-right ul li a {
@@ -99,7 +99,7 @@ header.portfolio {
 }
 
 #ripples header.portfolio {
-  background-image: url("/../assets/img/ripples/p1.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/ripples/p1.png");
 }
 
 #ripples nav .nav-right ul li a {
@@ -116,7 +116,7 @@ header.portfolio {
 }
 
 #pandakill header.portfolio {
-  background-image: url("/../assets/img/meichu/p1.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/meichu/p1.png");
 }
 
 #pandakill nav .nav-right ul li a {
@@ -133,7 +133,7 @@ header.portfolio {
 }
 
 #graphics header.portfolio {
-  background-image: url("/../assets/img/graphics/p1.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/graphics/p1.png");
   padding-bottom: 18%;
 }
 
@@ -161,7 +161,7 @@ header.portfolio {
 }
 
 #divvy header.portfolio {
-  background-image: url("/../assets/img/divvy/p1.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/divvy/p1.png");
   padding-bottom: 18%;
 }
 
@@ -185,7 +185,7 @@ header.portfolio {
 }
 
 #fishbowl header.portfolio {
-  background-image: url("/../assets/img/fishbowl/p1.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/fishbowl/p1.png");
   padding-bottom: 18%;
 }
 
