@@ -57,7 +57,7 @@ nav {
   padding: 0px 10px;
   padding-right: 40px;
   height: 90px;
-  padding-top: 12px;
+  padding-top: 8px;
 }
 
 nav .nav-left {
@@ -136,7 +136,7 @@ nav .nav-right ul li.active a, nav .nav-right ul li:hover a {
 header {
   width: 100%;
   padding: 7% 13%;
-  padding-top: 12%;
+  padding-top: 13.6%;
   padding-bottom: 1%;
   display: flex;
   flex-wrap: wrap;
