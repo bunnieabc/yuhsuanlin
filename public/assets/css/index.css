@@ -660,11 +660,103 @@ button.download {
   padding: 0px 7px;
 }
 
-@keyframes pulse {
-  to {
-    transform: scale(0.8);
-    opacity: 0.5;
-  }
+#playground header {
+  display: flex;
+  width: 100%;
+}
+
+#playground .project {
+  margin: 2% 2.5%;
+}
+
+#playground .project-col-6 {
+  width: 45%;
+}
+
+#playground .content {
+  padding-bottom: 1%;
+}
+
+#playground .playground-header-inside {
+  position: relative;
+}
+
+#playground h2.playground-h2 {
+  -webkit-justify-content: center;
+  justify-content: center;
+  font-size: 70px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+}
+
+#playground h3.playground-h3 {
+  -webkit-justify-content: center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Karla';
+  text-align: center;
+  position: relative;
+}
+
+#playground h4.playground-h4 {
+  font-size: 24px;
+  color: #333;
+  font-family: 'Karla';
+}
+
+#playground .project-under {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+#playground .desc {
+  font-size: 17px;
+}
+
+#playground p.warning {
+  font-size: 20px;
+  font-family: 'Karla';
+  text-align: center;
+  color: #FF275F;
+}
+
+#playground .glitch {
+  color: black;
+  font-size: 100px;
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#playground .s1 {
+  position: absolute;
+  top: -5px;
+  left: -60px;
+}
+
+#playground .s2 {
+  position: absolute;
+  top: -40px;
+  left: 220px;
+}
+
+#playground .s3 {
+  position: absolute;
+  top: 40px;
+  right: -32px;
+}
+
+#playground .s4 {
+  position: absolute;
+  bottom: -30px;
+  right: 200px;
+}
+
+#playground .sec1 {
+  padding-top: 20px;
 }
 
 @keyframes gradient {
