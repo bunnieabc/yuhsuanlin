@@ -375,6 +375,14 @@ header .header-words .header-contents .school {
   color: #222;
 }
 
+.project .project-pic #VR {
+  background: rgba(119, 176, 197, 0.9);
+}
+
+.project .project-pic #VR .pic-hover-content {
+  color: #222;
+}
+
 .project .project-pic #blender {
   background: rgba(46, 54, 108, 0.9);
 }
