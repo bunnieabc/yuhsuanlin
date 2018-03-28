@@ -160,6 +160,45 @@ header.portfolio {
   font-size: 24px;
 }
 
+#interactive header.portfolio {
+  background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/programming/p1.png");
+  padding-bottom: 18%;
+}
+
+@media (max-width: 768px) {
+  #interactive header.portfolio {
+    padding-bottom: 60%;
+  }
+}
+
+#interactive .kinect {
+  padding-left: 10px;
+}
+
+#interactive nav .nav-right ul li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#interactive nav .nav-right ul li.active a {
+  color: white;
+}
+
+#interactive section {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+#interactive section h4 {
+  font-size: 24px;
+}
+
+#interactive .black {
+  background: #333131;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 #divvy header.portfolio {
   background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/divvy/p1.png");
   padding-bottom: 18%;

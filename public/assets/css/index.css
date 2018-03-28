@@ -418,6 +418,14 @@ header .header-words .header-contents .school {
   color: #222;
 }
 
+.project .project-pic #interactive {
+  background: rgba(61, 68, 90, 0.9);
+}
+
+.project .project-pic #interactive .pic-hover-content {
+  color: #fff;
+}
+
 .project .project-pic #muse {
   background: rgba(186, 193, 237, 0.9);
 }

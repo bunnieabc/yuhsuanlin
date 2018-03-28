@@ -175,6 +175,41 @@ header.portfolio {
     }
   }
 }
+
+#interactive {
+  header.portfolio {
+    background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/programming/p1.png");
+    padding-bottom: 18%;
+    @media(max-width: 768px){ 
+      padding-bottom: 60%;
+    }
+  }
+  .kinect {
+    padding-left: 10px;
+  }
+  nav {
+    .nav-right ul li a {
+      color: rgba(255,255,255,0.5);
+    }
+    .nav-right ul li.active a {
+      color: rgba(255,255,255,1);
+    }
+  }
+  section {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    
+    h4 {
+      font-size: 24px;
+    }
+  }
+  .black{
+    background: #333131;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
 #divvy {
   header.portfolio {
     background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/divvy/p1.png");
