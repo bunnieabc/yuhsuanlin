@@ -363,6 +363,13 @@ header .header-words .header-contents .school {
   transition: .2s ease-in;
 }
 
+.project .project-pic#motion-bg {
+  background: #FFF;
+  background-size: 90%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 .project .project-pic #figure {
   background: rgba(96, 77, 64, 0.9);
 }
@@ -399,11 +406,11 @@ header .header-words .header-contents .school {
   color: #1d3b5a;
 }
 
-.project .project-pic #drama {
+.project .project-pic #motion {
   background: rgba(209, 244, 246, 0.9);
 }
 
-.project .project-pic #drama .pic-hover-content {
+.project .project-pic #motion .pic-hover-content {
   color: #222;
 }
 

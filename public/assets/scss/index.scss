@@ -367,7 +367,12 @@ header {
     &:hover {
 
     }
-
+    &#motion-bg {
+      background: #FFF;
+      background-size: 90%;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+    }
     #figure {
       background: rgba(96, 77, 64, 0.9);
     }
@@ -397,12 +402,13 @@ header {
       }
     }
 
-    #drama {
+    #motion {
       background: rgba(209, 244, 246, 0.9);
       .pic-hover-content {
         color: #222;
       }
     }
+    
 
     #muse {
       background: rgba(186, 193, 237, 0.9);
