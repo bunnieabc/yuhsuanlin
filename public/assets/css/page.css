@@ -45,6 +45,10 @@ header.portfolio {
   margin-bottom: 10px;
 }
 
+#google .paragraph {
+  padding-bottom: 70px;
+}
+
 #uxmuseum header.portfolio {
   background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/figure/p1.png");
 }
@@ -492,6 +496,10 @@ section button:hover {
   width: 90%;
 }
 
+.col-100 {
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .col-10, .col-20, .col-30, .col-40, .col-45, .col-50, .col-55, .col-60, .col-70, .col-80, .col-90 {
     width: 100%;
@@ -510,8 +518,16 @@ section button:hover {
   padding-right: 6%;
 }
 
+.padding-right-30 {
+  padding-right: 30px;
+}
+
 .text-left {
   text-align: left;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .title {
@@ -524,6 +540,13 @@ section button:hover {
   font-size: 26px;
   font-weight: 700;
   width: 100%;
+}
+
+.sub-title {
+  font-size: 18px;
+  font-weight: 700;
+  width: 100%;
+  margin: 10px 0px;
 }
 
 span.link-title {
