@@ -36,6 +36,24 @@ header.portfolio {
   }
 }
 
+#google {
+  header.portfolio {
+    background-color: #fff;
+    background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/google/p1.png");
+  }
+  nav {
+    .nav-right ul li a {
+      color: rgba(0,0,0,0.5);
+    }
+    .nav-right ul li.active a {
+      color: rgba(0,0,0,1);
+    }
+  }
+  .title{
+     margin-bottom: 10px;
+  }
+}
+
 #uxmuseum {
   header.portfolio {
     background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/figure/p1.png");
@@ -436,6 +454,11 @@ section{
 .text-left { text-align: left; }
 .title {
   font-size: 22px;
+  font-weight: 700;
+  width: 100%;
+}
+.title-number {
+  font-size: 26px;
   font-weight: 700;
   width: 100%;
 }
