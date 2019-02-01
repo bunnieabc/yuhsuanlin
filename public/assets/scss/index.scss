@@ -10,6 +10,8 @@ $red: #FF7373;
 $yellow: #F6D839;
 $green: #68C4CA;
 $red2: #FF275F;
+$light-blue :#E3EAFF;
+$dark-blue: #2E3658;
 
 
 *:not(.fa) {
@@ -181,7 +183,7 @@ header {
     color: #333;
     .header-title {
       font-size: 36px;
-      font-weight: 800;
+      font-weight: 700;
       //padding-left: 22px;
       font-family: 'Montserrat';
      
@@ -226,6 +228,37 @@ header {
   }
 }
 
+.project-text {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px 13px;
+  padding-bottom: 40px;
+  .project-text-title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 30px;
+  }
+  .project-text-tag{
+    font-size: 13px;
+    padding: 3px 8px;
+    background: $light-blue;
+    border-radius: 3px;
+    margin-right: 5px;
+    color: $dark-blue;
+  }
+  .project-text-firstline {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 3px;
+  }
+  .project-text-secondline {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+}
 
 .tags {
   display: flex;
@@ -342,7 +375,7 @@ header {
   }
 }
 .sec1 {
-  padding: 70px 9%;
+  padding: 75px 9.5%;
   display: flex;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
@@ -350,13 +383,14 @@ header {
 }
 
 
-
 .project {
-  margin: 0.7% 0.7%;
-
+  margin: 0.9% 1%;
+  
   .project-pic {
     width: 100%;
+    border-radius: 6px;
     padding-bottom: 70%;
+    overflow: hidden;
     //background: #ccc;
     position: relative;
     background-position: 50% 50%;
@@ -365,7 +399,7 @@ header {
     background-size: cover;
     transition: .2s ease-in;
     &:hover {
-
+      
     }
     &#motion-bg {
       background: #FFF;
@@ -511,7 +545,7 @@ header {
 }
 
 .project-col-6 {
-  width: 48.6%;
+  width: 48%;
   
 }
 
@@ -793,7 +827,7 @@ $loader-size: 45px;
   }
 }
 
-@media(max-width: 768px){
+@media(max-width: 900px){
     nav {
       padding: 0px;
       text-align: center;
