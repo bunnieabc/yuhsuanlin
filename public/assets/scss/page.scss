@@ -5,7 +5,7 @@ $padding-horizon: 7.5%;
 $padding-under-horizon: 2.5%;
 $main-color:#69C7D1;
 $main-color2:#5CADBC;
-$blue: #569CF8;
+$blue: #3F75FD;
 $red: #FF7373;
 $yellow: #F6D839;
 $green: #68C4CA;
@@ -279,6 +279,7 @@ header.portfolio {
   }
 }
 
+
 button#github {
   background: $green;
   &:hover {
@@ -477,6 +478,11 @@ section{
   width: 100%;
   margin: 10px 0px;
 }
+
+.about-title {
+  font-size: 32px;
+  font-weight: 600;
+}
 span.link-title {
   padding-right: 40px;
   font-size: 20px;
@@ -524,6 +530,41 @@ span.blue {
     }
   }
 }
+.about-content {
+  padding-top: 13%;
+  text-align: left;
+  font-size: 15px;
+  .other-sm {
+    font-size: 15px;
+    a{
+      color: $blue;
+      text-decoration: underline;
+    }
+    a.about-button {
+      border-radius: 4px;
+      background: $blue;
+      color: #FFF;
+      padding: 10px 18px;
+      font-size: 17px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+  }
+}
+.about-subtitle {
+  padding: 8px 0px;
+  font-size: 18px;
+  
+}
+
+.blue-hr {
+  border: 0px;
+  border-bottom: 3px $blue solid;
+  width: 100px;
+  margin: 15px 0;
+  margin-top: 10px
+}
+
 .iframe-rwd {
   position: relative;
   height: 0;
