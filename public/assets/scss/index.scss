@@ -202,7 +202,7 @@ header {
       }
       .school {
         font-size: 16px;
-        color: #333;
+        color: #777;
         //padding-top: 17px;
       }
     }
@@ -257,6 +257,7 @@ header {
   .project-text-secondline {
     font-size: 16px;
     margin-top: 8px;
+    color: #666;
   }
 }
 
@@ -274,7 +275,7 @@ header {
   .tag {
     color: #333;
     cursor: pointer;
-    background: #eee;
+    
     min-width: 120px;
     padding: 8px 20px;
     display: flex;
