@@ -137,7 +137,7 @@ header {
   width: 100%;
   padding: 7% 13%;
   padding-top: 13.6%;
-  padding-bottom: 1%;
+  padding-bottom: 2.9%;
   display: flex;
   flex-wrap: wrap;
   -webkit-align-items: center;
@@ -201,6 +201,7 @@ header .header-words .header-contents .under-typing {
 header .header-words .header-contents .school {
   font-size: 16px;
   color: #666;
+  margin-top: 7px;
 }
 
 .social-media {
@@ -213,7 +214,7 @@ header .header-words .header-contents .school {
 }
 
 .social-media a {
-  opacity: 0.7;
+  opacity: 0.6;
   -webkit-transition: .1s linear;
   -moz-transition: .1s linear;
   -ms-transition: .1s linear;
@@ -297,12 +298,12 @@ header .header-words .header-contents .school {
 }
 
 .tags .tag.active {
-  background: #569CF8;
+  background: #3F75FD;
   color: #fff;
 }
 
 .tags #uiux:hover, .tags #uiux.active {
-  background: #68C4CA;
+  background: #28C3D3;
   color: #FFF;
 }
 
@@ -590,7 +591,7 @@ hr.short-center {
 footer {
   position: relative;
   width: 100%;
-  color: #333;
+  color: #777;
   padding-bottom: 40px;
   display: flex;
   flex-wrap: wrap;

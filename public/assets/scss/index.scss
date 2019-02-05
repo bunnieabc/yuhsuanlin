@@ -5,10 +5,10 @@ $padding-horizon: 7.5%;
 $padding-under-horizon: 2.5%;
 $main-color:#69C7D1;
 $main-color2:#5CADBC;
-$blue: #569CF8;
+$blue: #3F75FD;
 $red: #FF7373;
 $yellow: #F6D839;
-$green: #68C4CA;
+$green: #28C3D3;
 $red2: #FF275F;
 $light-blue :#E3EAFF;
 $dark-blue: #2E3658;
@@ -144,7 +144,7 @@ header {
   width: 100%;
   padding: 7% 13%;
   padding-top: 13.6%;
-  padding-bottom: 1%;
+  padding-bottom: 2.9%;
   display: flex;
   flex-wrap: wrap;
   -webkit-align-items: center;
@@ -203,6 +203,7 @@ header {
       .school {
         font-size: 16px;
         color: #666;
+        margin-top: 7px;
         //padding-top: 17px;
       }
     }
@@ -216,7 +217,7 @@ header {
     margin: 10px 3px;
   }
   a {
-    opacity: 0.7;
+    opacity: 0.6;
     -webkit-transition: .1s linear;
     -moz-transition: .1s linear;
     -ms-transition: .1s linear;
@@ -576,7 +577,7 @@ footer {
   //background: #555;
   position: relative;
   width: 100%;
-  color: #333;
+  color: #777;
   padding-bottom: 40px;
   display: flex;
   flex-wrap: wrap;
@@ -589,6 +590,7 @@ footer {
   font-size: 16px;
   margin-top: 70px;
 }
+
 .copyright {
   width: 100%;
 }

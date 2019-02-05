@@ -8,7 +8,7 @@ $main-color2:#5CADBC;
 $blue: #3F75FD;
 $red: #FF7373;
 $yellow: #F6D839;
-$green: #68C4CA;
+$green: #28C3D3;
 
 
 *:not(.fa) {
@@ -483,6 +483,43 @@ section{
   font-size: 32px;
   font-weight: 600;
 }
+
+.about-content {
+  padding-top: 13%;
+  text-align: left;
+  font-size: 15px;
+  .other-sm {
+    font-size: 15px;
+    a{
+      color: $blue;
+      text-decoration: underline;
+    }
+    a.about-button {
+      border-radius: 4px;
+      background: $blue;
+      color: #FFF;
+      padding: 12px 20px;
+      font-size: 17px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+  }
+}
+.about-subtitle {
+  padding: 12px 0px;
+  font-size: 20px;
+  color: $blue;
+  padding-bottom: 20px;
+}
+
+.about-description {
+  color: #444;
+  .space {
+    width: 100%;
+    height: 12px;
+  }
+}
+
 span.link-title {
   padding-right: 40px;
   font-size: 20px;
@@ -530,32 +567,7 @@ span.blue {
     }
   }
 }
-.about-content {
-  padding-top: 13%;
-  text-align: left;
-  font-size: 15px;
-  .other-sm {
-    font-size: 15px;
-    a{
-      color: $blue;
-      text-decoration: underline;
-    }
-    a.about-button {
-      border-radius: 4px;
-      background: $blue;
-      color: #FFF;
-      padding: 10px 18px;
-      font-size: 17px;
-      font-weight: 600;
-      text-decoration: none;
-    }
-  }
-}
-.about-subtitle {
-  padding: 8px 0px;
-  font-size: 18px;
-  
-}
+
 
 .blue-hr {
   border: 0px;

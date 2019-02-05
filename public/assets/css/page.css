@@ -273,7 +273,7 @@ header.portfolio {
 }
 
 button#github {
-  background: #68C4CA;
+  background: #28C3D3;
 }
 
 button#github:hover {
@@ -554,6 +554,47 @@ section button:hover {
   font-weight: 600;
 }
 
+.about-content {
+  padding-top: 13%;
+  text-align: left;
+  font-size: 15px;
+}
+
+.about-content .other-sm {
+  font-size: 15px;
+}
+
+.about-content .other-sm a {
+  color: #3F75FD;
+  text-decoration: underline;
+}
+
+.about-content .other-sm a.about-button {
+  border-radius: 4px;
+  background: #3F75FD;
+  color: #FFF;
+  padding: 12px 20px;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.about-subtitle {
+  padding: 12px 0px;
+  font-size: 20px;
+  color: #3F75FD;
+  padding-bottom: 20px;
+}
+
+.about-description {
+  color: #444;
+}
+
+.about-description .space {
+  width: 100%;
+  height: 12px;
+}
+
 span.link-title {
   padding-right: 40px;
   font-size: 20px;
@@ -608,36 +649,6 @@ span.blue {
   .poster img {
     width: 100%;
   }
-}
-
-.about-content {
-  padding-top: 13%;
-  text-align: left;
-  font-size: 15px;
-}
-
-.about-content .other-sm {
-  font-size: 15px;
-}
-
-.about-content .other-sm a {
-  color: #3F75FD;
-  text-decoration: underline;
-}
-
-.about-content .other-sm a.about-button {
-  border-radius: 4px;
-  background: #3F75FD;
-  color: #FFF;
-  padding: 10px 18px;
-  font-size: 17px;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.about-subtitle {
-  padding: 8px 0px;
-  font-size: 18px;
 }
 
 .blue-hr {
