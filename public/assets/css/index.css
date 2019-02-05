@@ -200,7 +200,7 @@ header .header-words .header-contents .under-typing {
 
 header .header-words .header-contents .school {
   font-size: 16px;
-  color: #333;
+  color: #666;
 }
 
 .social-media {
@@ -257,8 +257,9 @@ header .header-words .header-contents .school {
 }
 
 .project-text .project-text-secondline {
-  font-size: 16px;
+  font-size: 15px;
   margin-top: 8px;
+  color: #666;
 }
 
 .tags {
@@ -276,7 +277,6 @@ header .header-words .header-contents .school {
 .tags .tag {
   color: #333;
   cursor: pointer;
-  background: #eee;
   min-width: 120px;
   padding: 8px 20px;
   display: flex;
@@ -386,10 +386,6 @@ header .header-words .header-contents .school {
 
 .project {
   margin: 0.9% 1%;
-}
-
-.project .pic-hover:hover {
-  box-shadow: 0 2px 9px -3px rgba(0, 0, 0, 0.17);
 }
 
 .project .project-pic {
@@ -921,5 +917,31 @@ button.download {
   .project {
     width: 100%;
     padding: 1%;
+  }
+  .project-text .project-text-title {
+    width: 100%;
+  }
+  .project-text .project-text-tag {
+    font-size: 13px;
+    padding: 3px 8px;
+    background: #E3EAFF;
+    border-radius: 3px;
+    margin-right: 5px;
+    color: #2E3658;
+  }
+  .project-text .project-text-firstline {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 3px;
+    flex-wrap: wrap;
+  }
+  .project-text .project-text-secondline {
+    font-size: 15px;
+    margin-top: 12px;
+    color: #666;
+  }
+  .sec1 {
+    padding: 60px 3.6%;
   }
 }

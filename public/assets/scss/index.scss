@@ -202,7 +202,7 @@ header {
       }
       .school {
         font-size: 16px;
-        color: #777;
+        color: #666;
         //padding-top: 17px;
       }
     }
@@ -255,7 +255,7 @@ header {
     padding-top: 3px;
   }
   .project-text-secondline {
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 8px;
     color: #666;
   }
@@ -888,5 +888,35 @@ $loader-size: 45px;
       width: 100%;
       padding: 1%;
     }
+    .project-text {
+     
+      .project-text-title {
+        width: 100%;
+        
+      }
+      .project-text-tag{
+        font-size: 13px;
+        padding: 3px 8px;
+        background: $light-blue;
+        border-radius: 3px;
+        margin-right: 5px;
+        color: $dark-blue;
+      }
+      .project-text-firstline {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-top: 3px;
+        flex-wrap: wrap;
+      }
+      .project-text-secondline {
+        font-size: 15px;
+        margin-top: 12px;
+        color: #666;
+      }
+    }
+  .sec1 {
+    padding: 60px 3.6%;
+  }
 }
 
