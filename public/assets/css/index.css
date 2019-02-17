@@ -421,6 +421,14 @@ header .header-words .header-contents .school {
   background: rgba(96, 77, 64, 0.9);
 }
 
+.project .project-pic #vtt {
+  background: rgba(241, 244, 255, 0.9);
+}
+
+.project .project-pic #vtt .pic-hover-content {
+  color: #222;
+}
+
 .project .project-pic #backme {
   background: rgba(243, 157, 9, 0.9);
 }

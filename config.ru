@@ -348,6 +348,19 @@ map '/portfolio/googleinternship.html' do
     }
 end
 
+map '/portfolio/vtt.html' do
+    run lambda { |env|
+      [
+        200,
+        {
+          'Content-Type'  => 'text/html',
+          'Cache-Control' => 'public, max-age=86400'
+        },
+        File.open('public/portfolio/vtt.html', File::RDONLY)
+      ]
+    }
+end
+
 map '/playground.html' do
     run lambda { |env|
       [

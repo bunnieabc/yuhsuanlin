@@ -418,6 +418,12 @@ header {
     #figure {
       background: rgba(96, 77, 64, 0.9);
     }
+    #vtt {
+      background: rgba(241, 244, 255, 0.9);
+      .pic-hover-content {
+        color: #222;
+      }
+    }
     #backme {
       background: rgba(243, 157, 9, 0.9);
       .pic-hover-content {

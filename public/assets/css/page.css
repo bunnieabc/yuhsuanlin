@@ -49,6 +49,37 @@ header.portfolio {
   padding-bottom: 70px;
 }
 
+#vtt header.portfolio {
+  background-color: #fff;
+  background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/VTT/p1.png");
+}
+
+#vtt nav .nav-right ul li a {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#vtt nav .nav-right ul li.active a {
+  color: black;
+}
+
+#vtt .title {
+  margin-bottom: 10px;
+}
+
+#vtt .paragraph {
+  padding-bottom: 70px;
+}
+
+#vtt .image-md, #vtt .other-md {
+  padding: 0% 10%;
+}
+
+@media (max-width: 768px) {
+  #vtt .image-md, #vtt .other-md {
+    padding: 0% 4%;
+  }
+}
+
 #uxmuseum header.portfolio {
   background-image: url("https://s3.us-east-2.amazonaws.com/yuhsuanlin/figure/p1.png");
 }
@@ -376,7 +407,7 @@ section h3 {
 
 section .other-sm, section .other-md, section .other-lg {
   line-height: 1.7em;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 section button {
@@ -428,6 +459,11 @@ section button:hover {
   .statement .statement-title, .statement .statement-content {
     font-size: 16px;
   }
+}
+
+.gif {
+  box-shadow: 0 3px 5.5px 0 rgba(0, 0, 0, 0.08);
+  border: 1px #ddd solid;
 }
 
 .box {
@@ -520,6 +556,10 @@ section button:hover {
 
 .padding-right-30 {
   padding-right: 30px;
+}
+
+.padding-left-30 {
+  padding-left: 50px;
 }
 
 .text-left {
