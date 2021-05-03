@@ -153,6 +153,7 @@ header {
 header .header-container {
   width: 100%;
   display: flex;
+  align-items: center;
 }
 header .header-words {
   width: 50%;
@@ -402,6 +403,26 @@ header .selfie {
   background: #E8E5E2;
 }
 
+#oracle-invoices {
+  background: #DCEDEC;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+#oracle-invoices .project-card-tag {
+  background: #D6E5E5;
+}
+
+#google-project {
+  background: #E5ECF7;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+#google-project .project-card-tag {
+  background: #D8E0EE;
+}
+
 .project {
   margin: 1% 0%;
 }
@@ -445,7 +466,7 @@ header .selfie {
   margin-top: 12px;
 }
 .project .project-card-lg .project-card-contents {
-  width: 45%;
+  width: 40%;
 }
 .project .project-card-lg .logo-sm {
   width: 40px;
@@ -456,6 +477,7 @@ header .selfie {
   font-family: "Playfair Display", serif;
   font-size: 4vh;
   font-weight: 600;
+  color: #233B3F;
 }
 .project .project-card-lg .project-card-description {
   font-size: 20px;

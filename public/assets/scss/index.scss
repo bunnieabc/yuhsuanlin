@@ -16,6 +16,8 @@ $li-color: #333333;
 $header-color: #444; 
 
 $oracle-bg-1: #F1EFED;
+$oracle-bg-2: #DCEDEC;
+$google-bg-1: #E5ECF7;
 
 *:not(.fa) {
   -webkit-font-smoothing: antialiased;
@@ -187,10 +189,11 @@ header {
   justify-content: center;
   background: #FDF9F8;
 
+
   .header-container {
     width: 100%;
     display: flex;
-
+    align-items: center;
   }  
 
   .header-words {
@@ -494,6 +497,28 @@ header {
   }
 }
 
+#oracle-invoices{
+  background: $oracle-bg-2;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+
+  .project-card-tag{
+    background: #D6E5E5;
+  }
+}
+
+#google-project{
+  background: $google-bg-1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+
+  .project-card-tag{
+    background: #D8E0EE;
+  }
+}
+
 
 
 .project {
@@ -545,7 +570,7 @@ header {
 
 
     .project-card-contents {
-      width: 45%;
+      width: 40%;
     }
     .logo-sm {
       width: 40px;
@@ -557,6 +582,7 @@ header {
       font-family: 'Playfair Display', serif;
       font-size: 4vh;
       font-weight: 600;
+      color: #233B3F;
     }
     .project-card-description {
       font-size: 20px;
@@ -904,7 +930,7 @@ $loader-size: 45px;
 }
 #playground{
   header{
-     display: flex;
+    display: flex;
     width: 100%;
   }
   .project{
@@ -1083,6 +1109,7 @@ $loader-size: 45px;
       height: 100%;
       padding: 4%;
       padding-top: 33%;
+
       .header-selfie {
         width: 100%;
       }
