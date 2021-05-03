@@ -351,7 +351,7 @@ header .selfie {
   padding: 50px 0px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: space-between;
   padding-top: 0px;
 }
 .content .img {
@@ -423,8 +423,52 @@ header .selfie {
   background: #D8E0EE;
 }
 
+#nyu-project {
+  background: #EEF2FF;
+  background-size: 78%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+#nyu-project .project-card-tag {
+  background: #D8E0EE;
+}
+
+#bf-project {
+  background: #FAEFD5;
+  background-size: 78%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+#bf-project .project-card-tag {
+  background: #D8E0EE;
+}
+
 .project {
   margin: 1% 0%;
+  justify-content: space-between;
+}
+.project .project-card-md {
+  border-radius: 12px;
+  padding: 6%;
+  position: relative;
+  margin-bottom: 24px;
+  transition: 0.2s ease;
+  border: 0px #eee solid;
+}
+.project .project-card-md .project-card-contents {
+  width: 70%;
+  padding-bottom: 50%;
+}
+.project .project-card-md .project-card-title {
+  font-size: 32px;
+}
+.project .project-card-md .project-card-description {
+  font-size: 20px;
+}
+.project .project-card-md:hover, .project .project-card-lg:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 5px 40px -5px rgba(0, 0, 0, 0.11);
+  border: 1px #ececec solid;
 }
 .project .project-card-lg {
   border-radius: 12px;
@@ -432,8 +476,10 @@ header .selfie {
   padding: 6%;
   position: relative;
   margin-bottom: 24px;
+  transition: 0.2s ease;
+  border: 0px #ececec solid;
 }
-.project .project-card-lg .locked {
+.project .locked {
   position: absolute;
   display: flex;
   padding: 8px 12px;
@@ -448,15 +494,15 @@ header .selfie {
   border-radius: 6px;
   align-items: center;
 }
-.project .project-card-lg .locked span {
+.project .locked span {
   padding-left: 10px;
 }
-.project .project-card-lg .project-card-tags {
+.project .project-card-tags {
   padding-top: 10%;
   display: flex;
   flex-wrap: wrap;
 }
-.project .project-card-lg .project-card-tag {
+.project .project-card-tag {
   border-radius: 6px;
   padding: 6px 12px;
   font-size: 16px;
@@ -468,18 +514,18 @@ header .selfie {
 .project .project-card-lg .project-card-contents {
   width: 40%;
 }
-.project .project-card-lg .logo-sm {
+.project .logo-sm {
   width: 40px;
   height: auto;
 }
-.project .project-card-lg .project-card-title {
+.project .project-card-title {
   padding-top: 3%;
   font-family: "Playfair Display", serif;
   font-size: 4vh;
   font-weight: 600;
   color: #233B3F;
 }
-.project .project-card-lg .project-card-description {
+.project .project-card-description {
   font-size: 20px;
   padding-top: 3%;
 }

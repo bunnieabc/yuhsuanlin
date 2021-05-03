@@ -18,6 +18,8 @@ $header-color: #444;
 $oracle-bg-1: #F1EFED;
 $oracle-bg-2: #DCEDEC;
 $google-bg-1: #E5ECF7;
+$nyu-bg-1: #EEF2FF;
+$bf-bg-1: #FAEFD5;
 
 *:not(.fa) {
   -webkit-font-smoothing: antialiased;
@@ -433,8 +435,8 @@ header {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-justify-content: start;
-  justify-content: start;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
   padding-top: 0px;
 
   .img {
@@ -519,10 +521,62 @@ header {
   }
 }
 
+#nyu-project{
+  background: $nyu-bg-1;
+  background-size: 78%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+
+  .project-card-tag{
+    background: #D8E0EE;
+  }
+}
+
+#bf-project{
+  background: $bf-bg-1;
+  background-size: 78%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+
+  .project-card-tag{
+    background: #D8E0EE;
+  }
+}
 
 
 .project {
   margin: 1% 0%;
+  //display: flex;
+  //flex-wrap: wrap;
+  justify-content: space-between;
+
+
+  .project-card-md {
+    border-radius: 12px;
+    //width: 49%;
+    padding: 6%;
+    position: relative;
+    margin-bottom: 24px;
+    transition: .2s ease;
+    border: 0px #eee solid;
+
+    .project-card-contents {
+      width: 70%;
+      padding-bottom: 50%;
+    }
+    .project-card-title {
+      font-size: 32px;
+    }
+    .project-card-description{
+      font-size: 20px;
+    }
+  }
+
+  .project-card-md:hover, .project-card-lg:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 5px 40px -5px rgba(0, 0, 0, 0.11);
+    border: 1px #ececec solid;
+  }
 
   //V2 Card
   .project-card-lg {
@@ -531,67 +585,72 @@ header {
     padding: 6%;
     position: relative;
     margin-bottom: 24px;
-    
-    .locked{
-      position: absolute;
-      display: flex;
-      padding: 8px 12px;
-      top: 24px;
-      right: 24px;
-      font-size: 18px;
+    transition: .2s ease;
+    border: 0px #ececec solid;
+  }
 
-      /* Shadow / SM */
-      background: #FFFFFF;
-      /* Button Borders/Outline - Disabled */
-      border: 1px solid rgba(22, 21, 19, 0.1);
-      box-sizing: border-box;
-      border-radius: 6px;
-      align-items: center;
+  .locked {
+    position: absolute;
+    display: flex;
+    padding: 8px 12px;
+    top: 24px;
+    right: 24px;
+    font-size: 18px;
 
-      span {
-        padding-left: 10px;
-      }
-    }
+    /* Shadow / SM */
+    background: #FFFFFF;
+    /* Button Borders/Outline - Disabled */
+    border: 1px solid rgba(22, 21, 19, 0.1);
+    box-sizing: border-box;
+    border-radius: 6px;
+    align-items: center;
 
-    .project-card-tags{
-      padding-top: 10%;
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .project-card-tag{
-      border-radius: 6px;
-      padding: 6px 12px;
-      font-size: 16px;
-      font-weight: 600;
-      color: #6C7372;
-      margin-right: 12px;
-      margin-top: 12px;
-    }
-
-
-    .project-card-contents {
-      width: 40%;
-    }
-    .logo-sm {
-      width: 40px;
-      height: auto;
-    }
-
-    .project-card-title {
-      padding-top: 3%;
-      font-family: 'Playfair Display', serif;
-      font-size: 4vh;
-      font-weight: 600;
-      color: #233B3F;
-    }
-    .project-card-description {
-      font-size: 20px;
-      padding-top: 3%;
-    }
-    .project-card-logo {
-
+    span {
+      padding-left: 10px;
     }
   }
+
+  .project-card-tags{
+    padding-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .project-card-tag{
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #6C7372;
+    margin-right: 12px;
+    margin-top: 12px;
+  }
+
+
+  .project-card-lg .project-card-contents {
+    width: 40%;
+  }
+
+
+  .logo-sm {
+    width: 40px;
+    height: auto;
+  }
+
+  .project-card-title {
+    padding-top: 3%;
+    font-family: 'Playfair Display', serif;
+    font-size: 4vh;
+    font-weight: 600;
+    color: #233B3F;
+  }
+  .project-card-description {
+    font-size: 20px;
+    padding-top: 3%;
+  }
+  .project-card-logo {
+
+  }
+
 
 
   .project-pic {
