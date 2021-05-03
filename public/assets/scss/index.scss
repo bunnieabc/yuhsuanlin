@@ -20,6 +20,7 @@ $oracle-bg-2: #DCEDEC;
 $google-bg-1: #E5ECF7;
 $nyu-bg-1: #EEF2FF;
 $bf-bg-1: #FAEFD5;
+$light-bg: #FDF9F8;
 
 *:not(.fa) {
   -webkit-font-smoothing: antialiased;
@@ -39,7 +40,7 @@ html, body {
   margin-bottom: 0px;
   //letter-spacing: 1px;
   h1,h2,h3,h4 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', serif;
     font-weight: 600;
     width: 100%;
   }
@@ -61,7 +62,7 @@ h1,h2,h3,h4 {
 }
 
 h2.section-header {
-  font-size: 40px;
+  font-size: 36px;
 }
 nav {
   position: absolute;
@@ -325,11 +326,11 @@ header {
 }
 
 .project-text {
-  margin-top: 15px;
+  //margin-top: 15px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0px 13px;
+  padding: 24px 24px;
   padding-bottom: 32px;
   .project-text-title {
     font-size: 22px;
@@ -482,11 +483,23 @@ header {
 }
 .sec1-header {
   padding-bottom: 32px;
+  width: 100%;
 }
+#fun-thing{
+  background: $light-bg
+}
+
 .vtt-bg {
   background: #EFF2FF;
 }
-
+#fun-thing {
+  background: $light-bg;
+}
+.fun-card {
+  background: #fff;
+  overflow: hidden;
+  border-radius: 12px;
+}
 
 #oracle-expenses{
   background: $oracle-bg-1;
@@ -655,8 +668,8 @@ header {
 
   .project-pic {
     width: 100%;
-    border-radius: 6px;
-    padding-bottom: 70%;
+    
+    padding-bottom: 62%;
     overflow: hidden;
     //background: #ccc;
     position: relative;
