@@ -271,11 +271,12 @@ header .selfie {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  padding: 24px 24px;
+  padding: 32px 32px;
   padding-bottom: 32px;
+  position: relative;
 }
 .project-text .project-text-title {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 700;
   padding-right: 30px;
 }
@@ -294,8 +295,8 @@ header .selfie {
   padding-top: 3px;
 }
 .project-text .project-text-secondline {
-  font-size: 15px;
-  margin-top: 8px;
+  font-size: 16px;
+  margin-top: 16px;
   color: #666;
 }
 
@@ -397,14 +398,34 @@ header .selfie {
   background: #EFF2FF;
 }
 
-#fun-thing {
-  background: #FDF9F8;
-}
-
 .fun-card {
   background: #fff;
   overflow: hidden;
   border-radius: 12px;
+  position: relative;
+  border: 1px solid #E5E5E5;
+  padding-bottom: 12px;
+  transition: 0.2s ease;
+}
+
+.fun-tag {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  position: absolute;
+  top: 32px;
+  right: 24px;
+  background: #FBF9F8;
+  /* Button Chroming/Toggle Inactive */
+  font-weight: 600;
+  border: 1px solid #F1F1F1;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.fun-tag i {
+  margin-right: 8px;
+  color: #FFAC33;
+  font-size: 18px;
 }
 
 #oracle-expenses {
@@ -479,7 +500,7 @@ header .selfie {
 .project .project-card-md .project-card-description {
   font-size: 20px;
 }
-.project .project-card-md:hover, .project .project-card-lg:hover {
+.project .project-card-md:hover, .project .project-card-lg:hover, .project .fun-card:hover {
   transform: scale(1.03);
   box-shadow: 0px 5px 40px -5px rgba(0, 0, 0, 0.11);
   border: 1px #ececec solid;
@@ -489,7 +510,6 @@ header .selfie {
   width: 100%;
   padding: 6%;
   position: relative;
-  margin-bottom: 24px;
   transition: 0.2s ease;
   border: 0px #ececec solid;
 }
@@ -545,7 +565,7 @@ header .selfie {
 }
 .project .project-pic {
   width: 100%;
-  padding-bottom: 62%;
+  padding-bottom: 56%;
   overflow: hidden;
   position: relative;
   background-position: 50% 50%;
@@ -680,7 +700,7 @@ header .selfie {
 }
 
 .project-col-6 {
-  width: 48%;
+  width: 49%;
 }
 
 .project-col-12 {

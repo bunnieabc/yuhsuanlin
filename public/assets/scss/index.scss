@@ -330,10 +330,12 @@ header {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  padding: 24px 24px;
+  padding: 32px 32px;
   padding-bottom: 32px;
+  position: relative;
+
   .project-text-title {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 700;
     padding-right: 30px;
   }
@@ -352,8 +354,8 @@ header {
     padding-top: 3px;
   }
   .project-text-secondline {
-    font-size: 15px;
-    margin-top: 8px;
+    font-size: 16px;
+    margin-top: 16px;
     color: #666;
   }
 }
@@ -492,15 +494,35 @@ header {
 .vtt-bg {
   background: #EFF2FF;
 }
-#fun-thing {
-  background: $light-bg;
-}
 .fun-card {
   background: #fff;
   overflow: hidden;
   border-radius: 12px;
+  position: relative;
+  border: 1px solid #E5E5E5;
+  padding-bottom: 12px;
+  transition: .2s ease;
 }
 
+.fun-tag{
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  position: absolute;
+  top: 32px;
+  right: 24px;
+  background: #FBF9F8;
+  /* Button Chroming/Toggle Inactive */
+  font-weight: 600;
+  border: 1px solid #F1F1F1;
+  box-sizing: border-box;
+  border-radius: 8px;
+  i{
+    margin-right: 8px;
+    color: #FFAC33;
+    font-size: 18px;
+  }
+}
 #oracle-expenses{
   background: $oracle-bg-1;
   background-size: contain;
@@ -585,7 +607,7 @@ header {
     }
   }
 
-  .project-card-md:hover, .project-card-lg:hover {
+  .project-card-md:hover, .project-card-lg:hover, .fun-card:hover {
     transform: scale(1.03);
     box-shadow: 0px 5px 40px -5px rgba(0, 0, 0, 0.11);
     border: 1px #ececec solid;
@@ -597,7 +619,6 @@ header {
     width: 100%;
     padding: 6%;
     position: relative;
-    margin-bottom: 24px;
     transition: .2s ease;
     border: 0px #ececec solid;
   }
@@ -669,7 +690,7 @@ header {
   .project-pic {
     width: 100%;
     
-    padding-bottom: 62%;
+    padding-bottom: 56%;
     overflow: hidden;
     //background: #ccc;
     position: relative;
@@ -831,7 +852,7 @@ header {
 }
 
 .project-col-6 {
-  width: 48%;
+  width: 49%;
   
 }
 .project-col-12 {
