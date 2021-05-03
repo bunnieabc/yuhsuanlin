@@ -16,7 +16,8 @@
   <link rel="stylesheet" href="/assets/css/normalize.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/css/index.css">
-  <link href="https://fonts.googleapis.com/css?family=Karla:400,700,800|Montserrat:400,400i,600,700,700i,800" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 <!--
@@ -31,53 +32,120 @@
 <nav>
   <div class="nav-left">
     <a href="../index.html">
-      
+      <div id="shape" class="shape">
+        <div id="polygon" class="polygon">
+        </div>
+      </div>
     </a>
   </div>
   <div class="nav-right">
+
     <ul>
-      <li class="active"><a href="../index.html">PORTFOLIO</a></li>
-      <li><a href="../playground.html">PLAYGROUND</a></li>
-      <li><a href="../about.html">ABOUT</a></li>
-      <li ><a href="/assets/pdf/cv.pdf">RESUME</a></li>
+      <li class="active"><a href="../index.html">Work</a></li>
+      <li><a href="../playground.html">Playground</a></li>
+      <li><a href="../about.html">About</a></li>
     </ul>
   </div>
 </nav>
 <header>
-  <div class="profile">
-    <div id="shape" class="shape">
-      <div id="polygon" class="polygon">
+  <div class="header-container">
+    <div class="header-words">
+      <div class="header-title">Hi, I'm Yu-Hsuan. <br> A product designer.</div>
+      <div class="header-description">
+        <span>Currently working on next-gen </span><span>finance products at&nbsp;</span> <a href="https://www.oracle.com/index.html">Oracle Design</a><span>.</span><span> Previously worked at&nbsp;</span><a href="https://assistant.google.com/">Google Assistant</a> <span>,&nbsp;</span> <a href ="https://www.nyu.edu/life/information-technology.html">NYU IT</a> <span>&nbsp;and&nbsp;</span><a href="https://en.backer-founder.com/">Backer-Founder</a><span>.</span> 
       </div>
-    </div>
-  </div>
-  <div class="header-words">
-    <div class="header-title">YU-HSUAN LIN</div>
-    <div class="header-contents">
-      I am a multi-disciplinary <span class="typing" data-typer-targets="Product Designer, Interaction Designer, UX Designer">UX Designer </span><span class="under-typing">who focus on the intersection between human and technology.</span>
-      <div class="school">
-        MS in Integrated Digital Media @ New York University
+      <!-- Typing effect-->
+      <!--
+      <div class="header-contents">
+        I am a multi-disciplinary <span class="typing" data-typer-targets="Product Designer, Interaction Designer, UX Designer">UX Designer </span><span class="under-typing">who focus on the intersection between human and technology.</span>
+        <div class="school">
+          MS in Integrated Digital Media @ New York University
+        </div>
       </div>
+    -->
+    <!-- Social media row-->
+    <!--
+      <div class="social-media">
+        <a href="https://dribbble.com/bunnieabc"><img src="/assets/img/icons/dribbble.png" alt=""></a>
+        <a href="https://github.com/bunnieabc"><img src="/assets/img/icons/github-sign.png" alt=""></a>
+        <a href="mailto:yhl437@nyu.edu"><img src="/assets/img/icons/envelope.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/yu-hsuan-lin-06772ab8/"><img src="/assets/img/icons/linkedin.png" alt=""></a>
+      </div>
+    -->
     </div>
-    <div class="social-media">
-      <a href="https://dribbble.com/bunnieabc"><img src="/assets/img/icons/dribbble.png" alt=""></a>
-      <a href="https://github.com/bunnieabc"><img src="/assets/img/icons/github-sign.png" alt=""></a>
-      <a href="mailto:yhl437@nyu.edu"><img src="/assets/img/icons/envelope.png" alt=""></a>
-      <a href="https://www.linkedin.com/in/yu-hsuan-lin-06772ab8/"><img src="/assets/img/icons/linkedin.png" alt=""></a>
+    <div class="header-selfie">
+      <div class="selfie-background" style="background-image:url('https://yuhsuanlin.s3.us-east-2.amazonaws.com/selfie-bg.png')">
+        <div class="selfie" style="background-image:url('https://yuhsuanlin.s3.us-east-2.amazonaws.com/selfie.png')"></div>
     </div>
-  </div>
+  </div> 
+
 
 </header>
 
 
 <div class="sec1">
+  <!--tags-->
+  <!--
   <div class="tags">
     <div class="tag active" id="focus" >All</div>
     <div class="tag" id ="uiux">UX/UI</div>
     <div class="tag" id ="dev">Delevopment</div>
     <div class="tag" id ="visual">Visual</div>
   </div>
+-->
+
   <div class="content">
+    <div class="sec1-header">
+      <h2 class="section-header">Selected Projects</h2>
+      <hr class="short">
+    </div>
+    
+    <br>
+    <div class="project project-col-12">
+      <div class="project-card-lg" id="oracle-expenses" style="background-image:url('https://yuhsuanlin.s3.us-east-2.amazonaws.com/illustration+1.png')">
+        <div class="project-card-contents">
+          <img class="logo-sm" src="https://yuhsuanlin.s3.us-east-2.amazonaws.com/oracle.png">
+          <div class="project-card-title">Oracle Expenses</div>
+          <div class="project-card-description">
+            How might we create seamless and touchless user experience for next-gen Expenses?
+          </div>
+          <div class="project-card-tags">
+            <div class="project-card-tag">Mobile</div>
+            <div class="project-card-tag">MVP Design</div>
+            <div class="project-card-tag">Responsive</div>
+            <div class="project-card-tag">Usability Testing</div>
+
+          </div>
+          <div class="locked">
+            <i class="fa fa-lock"></i> <span>Locked</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card-lg" id="oracle-expenses" style="background-image:url('https://yuhsuanlin.s3.us-east-2.amazonaws.com/illustration+2.png')">
+        <div class="project-card-contents">
+          <img class="logo-sm" src="https://yuhsuanlin.s3.us-east-2.amazonaws.com/oracle.png">
+          <div class="project-card-title">Oracle Expenses</div>
+          <div class="project-card-description">
+            How might we create seamless and touchless user experience for next-gen Expenses?
+          </div>
+          <div class="project-card-tags">
+            <div class="project-card-tag">Mobile</div>
+            <div class="project-card-tag">MVP Design</div>
+            <div class="project-card-tag">Responsive</div>
+            <div class="project-card-tag">Usability Testing</div>
+
+          </div>
+          <div class="locked">
+            <i class="fa fa-lock"></i> <span>Locked</span>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
     <!-- project unit -->
+    <!--
     <div class="project project-col-6" data-cate="focus uiux visual dev">
       <a href="/portfolio/googleinternship.html">
       <div class="project-pic" style="background-image:url('https://s3.us-east-2.amazonaws.com/yuhsuanlin/google/cover.png')">
@@ -104,6 +172,7 @@
         </div>
       </div>
     </div>
+  -->
     
     <div class="project project-col-6" data-cate="focus uiux visual">
       <a href="/portfolio/vtt.html">
