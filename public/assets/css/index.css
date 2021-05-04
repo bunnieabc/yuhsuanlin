@@ -393,6 +393,10 @@ header .selfie {
 
 #fun-thing {
   background: #FDF9F8;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .vtt-bg {

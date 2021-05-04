@@ -490,7 +490,11 @@ header {
   width: 100%;
 }
 #fun-thing{
-  background: $light-bg
+  background: $light-bg;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .vtt-bg {
@@ -1161,6 +1165,9 @@ $loader-size: 45px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .sec1 {
+
   }
   .sec1 .content{
     width: 1200px;
