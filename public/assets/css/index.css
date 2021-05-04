@@ -153,6 +153,7 @@ header {
 header .header-container {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 header .header-words {
@@ -478,6 +479,19 @@ header .selfie {
   background: #D8E0EE;
 }
 
+#oracle-workshop {
+  background-color: #315357;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+#oracle-workshop .project-card-description {
+  color: #fff;
+}
+#oracle-workshop .project-card-title {
+  color: #fff;
+}
+
 .project {
   margin: 1% 0%;
   justify-content: space-between;
@@ -486,7 +500,6 @@ header .selfie {
   border-radius: 12px;
   padding: 6%;
   position: relative;
-  margin-bottom: 24px;
   transition: 0.2s ease;
   border: 0px #eee solid;
 }
@@ -1001,10 +1014,11 @@ button.download {
     text-align: center;
   }
   nav .nav-left {
-    width: 0%;
+    width: 20%;
+    padding-left: 20px;
   }
   nav .nav-right {
-    width: 100%;
+    width: 80%;
     justify-content: center;
   }
   nav ul {
@@ -1028,8 +1042,12 @@ button.download {
     height: 100%;
     padding: 4%;
     padding-top: 33%;
+    flex-wrap: wrap;
   }
   header .header-selfie {
+    width: 100%;
+  }
+  header .header-selfie .selfie {
     width: 100%;
   }
   header .header-words {
@@ -1038,6 +1056,12 @@ button.download {
     text-align: center;
     line-height: 1.5em;
     position: relative;
+  }
+  header .header-words .header-description {
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   header .header-words .header-title {
     font-size: 28px;
@@ -1050,9 +1074,56 @@ button.download {
     display: block;
   }
 
+  .sec1-header {
+    margin-left: 16px;
+  }
+  .sec1-header h2.section-header {
+    font-size: 28px;
+  }
+
   .project {
     width: 100%;
     padding: 1%;
+  }
+  .project .project-card-lg, .project .project-card-md {
+    padding-bottom: 60%;
+  }
+  .project .project-card-lg .project-card-title, .project .project-card-md .project-card-title {
+    font-size: 24px;
+  }
+  .project .project-card-lg .project-card-description, .project .project-card-md .project-card-description {
+    font-size: 16px;
+  }
+  .project .project-card-lg .project-card-contents, .project .project-card-md .project-card-contents {
+    width: 100%;
+  }
+  .project .project-card-lg .locked, .project .project-card-md .locked {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .project .project-card-lg .project-card-tag, .project .project-card-md .project-card-tag {
+    font-size: 13px;
+  }
+  .project .project-card-lg .project-card-tags, .project .project-card-md .project-card-tags {
+    padding-top: 16px;
+  }
+  .project .project-card-md {
+    padding-bottom: 20%;
+  }
+
+  .fun-card .project-text {
+    padding: 16px;
+  }
+  .fun-card .project-text .project-text-title {
+    font-size: 20px;
+  }
+  .fun-card .fun-tag {
+    font-size: 13px;
+    top: 16px;
+    right: 16px;
+  }
+  .fun-card .fun-tag i {
+    font-size: 16px;
   }
 
   .project-text .project-text-title {
